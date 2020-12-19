@@ -28,6 +28,9 @@ $desktop-large:                 2200px;
 @import 'components/footer';
 @import 'components/hero';
 @import 'components/entry';
+@import 'components/animations';
+@import 'components/button';
+@import 'components/background';
 @import 'components/textanim/base';
 @import 'components/textanim/module';
 @import 'pages/home';
@@ -63,6 +66,7 @@ body {
         overflow: hidden;
     }
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -79,10 +83,16 @@ img {
     }
 }
 body, h3, h4 { color: $blue; }
-h1 {margin: .67em 0;}
 h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: stevie-sans, sans-serif; margin-bottom: 10px; }
+h1 {
+    font-size: 58px;
+    line-height: 55px;
+    font-weight: 900;
+    margin: .67em 0;
+}
 .h3-bigger { margin-bottom: 10px; font-size: 27px; line-height: 31px; font-weight: 900;}
 li, p { font-size: 17px; line-height: 22px; font-weight: 400; font-family: 'BorgiaPro-Regular', Georgia, sans-serif;}
+p { margin-bottom: 15px; }
 small { font-size: 50%; }
 .small, h1, h2, h3 {
     margin-bottom: 20px;
@@ -110,53 +120,7 @@ marquee {
     height: 100%;
 }
 
-.button {
-    margin-right: 0;
-    margin-bottom: 3px;
-    padding: 0 38px 0 0;
-    -webkit-transition: opacity 150ms ease-in-out,
-                        background-color 150ms ease-in-out,
-                        color 150ms ease-in-out;
-    transition: opacity 150ms ease-in-out,
-                background-color 150ms ease-in-out,
-                color 150ms ease-in-out;
-    font-family: stevie-sans,sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.button .button-arrow, .entry-arrow {
-    display: inline-block;
-    height: 8px;
-    position: relative;
-    width: 0;
-    color: $red;
-    transition: opacity 150ms ease-in-out;
-    &:before {
-        content: "";
-        left: 10px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 23px;
-        border-bottom: 1px solid currentcolor;
-        transition: width 150ms ease-in-out;
-    }
-    &:after {
-        content: "";
-        display: block;
-        height: 5px;
-        position: absolute;
-        right: -10px;
-        top: 50%;
-        transform: translate(23px, -50%) rotate(45deg);
-        width: 5px;
-        border-right: 1px solid currentcolor;
-        border-top: 1px solid currentcolor;
-        transition: transform 150ms ease-in-out;
-    }
-}
+.margin-bottom-0 { margin-bottom: 0; }
 
 .bg--white { background-color: $white; color: $black; }
 .bg--black { background-color: $black; color: $white; }

@@ -1,0 +1,29 @@
+.cms-animation {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    height: 100%;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    &.left {
+        -webkit-transform: translate(-100px,0);
+        -ms-transform: translate(-100px,0);
+        transform: translate(-100px,0);
+    }
+    &.right {
+        -webkit-transform: translate(100px,0);
+        -ms-transform: translate(100px,0);
+        transform: translate(100px,0);
+    }
+}
+.animation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}

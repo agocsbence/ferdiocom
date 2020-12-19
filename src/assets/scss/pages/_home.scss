@@ -16,61 +16,170 @@ section {
     }
     &#works-home {
         padding: 150px 0;
+        .work-1 {
+            margin-top: -100px;
+            -ms-grid-column-span: 7;
+            grid-column-end: 13;
+            -ms-grid-column: 6;
+            grid-column-start: 6;
+            -ms-grid-row-span: 1;
+            grid-row-end: 3;
+            -ms-grid-row: 2;
+            grid-row-start: 2;
+        }
+        .work-2 {
+            margin-bottom: 100px;
+            -ms-grid-column-span: 4;
+            grid-column-end: 6;
+            -ms-grid-column: 2;
+            grid-column-start: 2;
+            -ms-grid-row-span: 1;
+            grid-row-end: 3;
+            -ms-grid-row: 2;
+            grid-row-start: 2;
+            -ms-grid-row-align: end;
+            align-self: end;
+        }
+        .work-3 {
+            -ms-grid-column-span: 7;
+            grid-column-end: 8;
+            -ms-grid-column: 1;
+            grid-column-start: 1;
+            -ms-grid-row-span: 1;
+            grid-row-end: 4;
+            -ms-grid-row: 3;
+            grid-row-start: 3;
+        }
+        .work-4 {
+            margin-top: 100px;
+            -ms-grid-column-span: 4;
+            grid-column-end: 12;
+            -ms-grid-column: 8;
+            grid-column-start: 8;
+            -ms-grid-row-span: 1;
+            grid-row-end: 4;
+            -ms-grid-row: 3;
+            grid-row-start: 3;
+        }
+        .work-5 {
+            margin-top: -80%;
+            -ms-grid-column-span: 4;
+            grid-column-end: 8;
+            -ms-grid-column: 4;
+            grid-column-start: 4;
+            -ms-grid-row-span: 1;
+            grid-row-end: 5;
+            -ms-grid-row: 4;
+            grid-row-start: 4;
+        }
     }
-    .work-1 {
-        margin-top: -100px;
-        -ms-grid-column-span: 7;
-        grid-column-end: 13;
-        -ms-grid-column: 6;
-        grid-column-start: 6;
-        -ms-grid-row-span: 1;
-        grid-row-end: 3;
-        -ms-grid-row: 2;
-        grid-row-start: 2;
-    }
-    .work-2 {
-        margin-bottom: 100px;
-        -ms-grid-column-span: 4;
-        grid-column-end: 6;
-        -ms-grid-column: 2;
-        grid-column-start: 2;
-        -ms-grid-row-span: 1;
-        grid-row-end: 3;
-        -ms-grid-row: 2;
-        grid-row-start: 2;
-        -ms-grid-row-align: end;
-        align-self: end;
-    }
-    .work-3 {
-        -ms-grid-column-span: 7;
-        grid-column-end: 8;
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        -ms-grid-row-span: 1;
-        grid-row-end: 4;
-        -ms-grid-row: 3;
-        grid-row-start: 3;
-    }
-    .work-4 {
-        margin-top: 100px;
-        -ms-grid-column-span: 4;
-        grid-column-end: 12;
-        -ms-grid-column: 8;
-        grid-column-start: 8;
-        -ms-grid-row-span: 1;
-        grid-row-end: 4;
-        -ms-grid-row: 3;
-        grid-row-start: 3;
-    }
-    .work-5 {
-        margin-top: -80%;
-        -ms-grid-column-span: 4;
-        grid-column-end: 8;
-        -ms-grid-column: 4;
-        grid-column-start: 4;
-        -ms-grid-row-span: 1;
-        grid-row-end: 5;
-        -ms-grid-row: 4;
-        grid-row-start: 4;
+    &#services-home {
+        position: relative;
+        .background-wrapper {
+            -ms-grid-column-span: 9;
+            grid-column-end: 13;
+            -ms-grid-column: 4;
+            grid-column-start: 4;
+            -ms-grid-row-span: 2;
+            grid-row-end: 3;
+            -ms-grid-row: 1;
+            grid-row-start: 1;
+            -ms-grid-row-align: stretch;
+            align-self: stretch;
+            .background {
+                width: 994.906px;
+                top: 109.406px;
+                left: 0px;
+                height: 984.594px;
+            }
+        }
+        .services-container {
+            h1 {
+                -ms-grid-column-span: 7;
+                grid-column-end: 9;
+                -ms-grid-column: 2;
+                grid-column-start: 2;
+                -ms-grid-row-span: 1;
+                grid-row-end: 2;
+                -ms-grid-row: 1;
+                grid-row-start: 1;
+            }
+            .service-container-grid {
+                -ms-grid-column-span: 12;
+                grid-column-end: 13;
+                -ms-grid-column: 1;
+                grid-column-start: 1;
+                -ms-grid-row-span: 1;
+                grid-row-end: 3;
+                -ms-grid-row: 2;
+                grid-row-start: 2;
+                .service {
+                    &.service-1 {
+                        -ms-grid-column-span: 12;
+                        grid-column-end: 13;
+                        -ms-grid-column: 1;
+                        grid-column-start: 1;
+                        -ms-grid-row-span: 1;
+                        grid-row-end: 2;
+                        -ms-grid-row: 1;
+                        grid-row-start: 1;
+                        .cms-animation {
+                            -ms-grid-column-span: 8;
+                            grid-column-end: 9;
+                            -ms-grid-column: 1;
+                            grid-column-start: 1;
+                            -ms-grid-row-span: 1;
+                            grid-row-end: 2;
+                            -ms-grid-row: 1;
+                            grid-row-start: 1;
+                        }
+                        .service-text {
+                            -ms-grid-column-span: 4;
+                            grid-column-end: 12;
+                            -ms-grid-column: 8;
+                            grid-column-start: 8;
+                            -ms-grid-row-span: 1;
+                            grid-row-end: 2;
+                            -ms-grid-row: 1;
+                            grid-row-start: 1;
+                            -ms-grid-row-align: center;
+                            align-self: center;
+                        }
+                    }
+                    &.service-2 {
+                        -ms-grid-column-span: 12;
+                        grid-column-end: 13;
+                        -ms-grid-column: 1;
+                        grid-column-start: 1;
+                        -ms-grid-row-span: 1;
+                        grid-row-end: 3;
+                        -ms-grid-row: 2;
+                        grid-row-start: 2;
+                        .cms-animation {
+                            -ms-grid-column-span: 10;
+                            grid-column-end: 13;
+                            -ms-grid-column: 3;
+                            grid-column-start: 3;
+                            -ms-grid-row-span: 1;
+                            grid-row-end: 2;
+                            -ms-grid-row: 1;
+                            grid-row-start: 1;
+                        }
+                        .service-text {
+                            -ms-grid-column-span: 4;
+                            grid-column-end: 6;
+                            -ms-grid-column: 2;
+                            grid-column-start: 2;
+                            -ms-grid-row-span: 1;
+                            grid-row-end: 2;
+                            -ms-grid-row: 1;
+                            grid-row-start: 1;
+                            -ms-grid-row-align: center;
+                            align-self: center;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

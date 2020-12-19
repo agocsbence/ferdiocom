@@ -23,6 +23,9 @@
     &._150-gap {
         grid-row-gap: 150px;
     }
+    &.grid._250-gap {
+        grid-row-gap: 250px;
+    }
     &.background-grid {
         position: absolute;
         left: 50%;
@@ -87,4 +90,26 @@
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     }
+}
+
+.section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
