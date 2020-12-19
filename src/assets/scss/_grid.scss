@@ -1,58 +1,90 @@
 .grid {
+    position: relative;
+    z-index: 1;
     display: grid;
-    &.grid-2 {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 1.375rem;
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 1200px !important;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    grid-auto-flow: row;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-template-areas: ".";
+    -ms-grid-columns: .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr 20px .25fr;
+    grid-template-columns: .25fr .25fr .25fr .25fr .25fr .25fr .25fr .25fr .25fr .25fr .25fr .25fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    &._150-gap {
+        grid-row-gap: 150px;
+    }
+    &.background-grid {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        height: 100%;
+        min-height: 100%;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        transform: translate(-50%,0);
+    }
+}
+.flex {
+    display: flex;
+    padding: 0;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    list-style-type: none;
+    &.vertical {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        &.entry-title.featured, .featured {
+            margin-bottom: -20px;
         }
     }
-    &.grid-2-1 {
-        grid-template-columns: 5fr 2fr;
-        grid-template-rows: auto;
-        grid-gap: 1.375rem;
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: 1fr;
-        }
-    }
-    &.grid-3 {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 1.375rem;
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: 1fr;
-        }
-    }
-    &.grid-4 {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 1.375rem;
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: 1fr;
-        }
-    }
-    &.grid-no-gap { grid-gap: 0;}
-    &.grid--header {
-        // grid-template-columns: auto auto auto;
-        grid-auto-columns: max-content;
-        grid-template-rows: 5rem;
-        grid-template-areas: 
-            "logo slogan marquee";
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: auto auto;
-            grid-template-rows: auto auto;
-            grid-template-areas: 
-                "logo slogan"
-                "marquee marquee";
-        }
-    }
-    &.grid--main {
-        grid-template-columns: 2fr 1fr 1fr;
-        grid-template-rows: auto;
-        @media screen and (max-width: $tablet) {
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto;
-        }
+    &.entry-text {
+        padding-top: 20px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     }
 }

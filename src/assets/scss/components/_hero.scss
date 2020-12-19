@@ -1,0 +1,20 @@
+section#hero {
+    height: 100vh;
+    position: relative;
+    color: $white;
+    .hero-text-wrapper {
+        // top: 50%;
+        // transform: translateY(-50%);
+        grid-column: 2 / 9;
+        grid-row: 1 / 2;
+        align-self: center;
+        h1 {
+            font-size: 58px;
+            line-height: 55px;
+            font-weight: 900;
+            span {
+                color: $red;
+            }
+        }
+    }
+}

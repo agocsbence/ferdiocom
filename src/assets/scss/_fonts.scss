@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'BorgiaPro-Regular';
+    src:  url('fonts/BorgiaPro-Regular-webfont.woff2') format('woff2'),
+          url('fonts/BorgiaPro-Regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'BorgiaPro-Italic';
+    src:  url('fonts/BorgiaPro-Italic-webfont.woff2') format('woff2'),
+          url('fonts/BorgiaPro-Italic-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'BorgiaPro-Bold';
+    src:  url('fonts/BorgiaPro-Bold-webfont.woff2') format('woff2'),
+          url('fonts/BorgiaPro-Bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'BorgiaPro-BoldItalic';
+    src:  url('fonts/BorgiaPro-BoldItalic-webfont.woff2') format('woff2'),
+          url('fonts/BorgiaPro-BoldItalic-webfont.woff') format('woff');
+}
+
 .font-400 {
     font-family: stevie-sans, sans-serif;
     font-weight: 400;
@@ -13,3 +34,7 @@
     font-weight: 900;
     font-style: normal;
 }
+.font-regular {font-family: 'BorgiaPro-Regular';}
+.font-bold {font-family: 'BorgiaPro-Bold';}
+.font-italic {font-family: 'BorgiaPro-Italic';}
+.font-bold-italic {font-family: 'BorgiaPro-BoldItalic';}

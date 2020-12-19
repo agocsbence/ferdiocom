@@ -27,8 +27,8 @@ gulp.task('imagemin', async function () {
 });
 
 gulp.task('fonts', function() {
-  return gulp.src('src/assets/fonts/*')
-    .pipe(gulp.dest('dist/assets/fonts/'));
+  return gulp.src('src/assets/scss/fonts/**/*')
+    .pipe(gulp.dest('dist/assets/css/fonts/'));
 });
 
 gulp.task('scripts', function(){
