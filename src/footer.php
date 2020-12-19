@@ -149,6 +149,8 @@
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-box.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-language.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script> -->
+		
+		<!-- HOME SCRIPT -->
 		<script type="text/javascript">
 			$(document).ready(function(){
 			
@@ -181,7 +183,64 @@
 			  });
 			
 			});
-			
+		</script>
+		
+		<!-- WORK SCRIPT -->
+		<script>
+            // TABS MENU
+            $(document).ready(function(){
+            		function scroll () {
+                	$("html, body").animate({ scrollTop: $('.entries').offset().top - parseInt($('.hero').css('padding-bottom')) - 20}, "slow");
+                  setTimeout(function(){
+                  	$('.grid.navbar-nav').css({opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'});
+                  }, 1000);
+                };
+                // get the tab from url
+                var hash = window.location.hash;
+                // if a hash is present (when you come to this page)
+                if (hash !='') {
+                    // show the tab
+                    scroll();
+                    $('.tabs-menu #all').trigger('click');
+                    $('.tabs-content .tabs-menu ' + hash).trigger('click');
+                };
+                
+                	$('#button-see-all').on('click', function() {
+                  	scroll();
+                    $('.tag#all').trigger('click');
+                	});
+                  
+                  $('.tag').on('click', function() {
+                    scroll();
+                	});
+                
+            });
+            
+            // INSTAGRAM FEED
+            
+            $(document).ready(function(){
+            
+            	var token = $('.section.instagram').data('token'),
+            		container = $('.section.instagram .thumbnail-wrapper .entry-link'),
+                	num_photos = container.length;
+             
+            	$.ajax({
+            		url: 'https://api.instagram.com/v1/users/self/media/recent',
+            		dataType: 'jsonp',
+            		type: 'GET',
+            		data: {access_token: token, count: num_photos},
+            		success: function(data){
+            			for( x in data.data ){
+            				container.eq(x).attr('href', data.data[x].link);
+            				container.eq(x).css('background-image', 'url(' + data.data[x].images.standard_resolution.url +')');
+            			}
+            		},
+            		error: function(data){
+            			console.log(data);
+            		}
+            	});
+            
+            });
         </script>
 
         <?php wp_footer(); ?>

@@ -18,7 +18,7 @@
         <?php wp_head(); ?>
 	</head>
 	<body class="body">
-		<div class="preloader"></div>
+		<!-- <div class="preloader"></div> -->
 		<div class="page-content">
 			<div data-animation="over-right" class="navbar w-nav" data-easing2="ease-in-out" data-easing="ease-in-out" data-collapse="all" data-w-id="fdf06452-4737-3e48-74e8-e32048d2f8bd" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
 				<nav role="navigation" class="section nav-menu w-nav-menu">
