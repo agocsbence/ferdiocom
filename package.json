@@ -21,6 +21,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-real-favicon": "^0.3.2",
     "gulp-responsive-images": "0.0.4",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "lodash": ">=4.17.19"
   }
 }
