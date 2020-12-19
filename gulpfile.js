@@ -63,11 +63,6 @@ gulp.task('copyWPstyle', function(){
     .pipe(gulp.dest('dist/'));
 });
 
-// gulp.task('icons', function() {
-//     return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
-//         .pipe(gulp.dest('dist/assets/webfonts/'));
-// });
-
 gulp.task('watch', function () {
   gulp.watch('./src/assets/scss/**/*.scss', gulp.series('styles'));
   console.log('gulp is watching for SCSS changes 👀');
