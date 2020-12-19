@@ -92,6 +92,35 @@
     }
 }
 
+.grid-chat {
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-template-areas: ". . Chat Chat Chat Chat . Headline Headline Headline";
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+}
+
+.entry-notebook, .grid-chat, .grid-subscribe {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+.grid-chat, .grid-seo {
+    display: -ms-grid;
+    width: 100%;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-chat, .image-4, .player-wrapper, .tag-holder, .tag-title, .tags-section {
+    position: relative;
+}
+
 .section {
     display: -webkit-box;
     display: -webkit-flex;
