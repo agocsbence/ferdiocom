@@ -70,7 +70,7 @@ gulp.task('watch', function () {
   console.log('gulp is watching for changes in HTML files ⌨️');
   gulp.watch('./src/assets/js/**/*.js', gulp.series('scripts'));
   console.log('gulp is watching for changes in Javascript files ⌨️');
-  return
+  return;
 });
 gulp.task('watchWP', function () {
   gulp.watch('./src/assets/scss/**/*.scss', gulp.series('styles'));
@@ -79,7 +79,7 @@ gulp.task('watchWP', function () {
   console.log('gulp is watching for changes in PHP files ⌨️');
   gulp.watch('./src/assets/js/**/*.js', gulp.series('scripts'));
   console.log('gulp is watching for changes in Javascript files ⌨️');
-  return
+  return;
 });
 
 gulp.task('wordpress', gulp.series('copyWPimage', 'copyWPstyle', 'copyPHP', 'watchWP'));

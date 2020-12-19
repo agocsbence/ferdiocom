@@ -9,7 +9,8 @@
   "author": "Bence Agocs - HAROM.studio",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "lodash.template": "^4.5.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
@@ -22,6 +23,6 @@
     "gulp-real-favicon": "^0.3.2",
     "gulp-responsive-images": "0.0.4",
     "gulp-sass": "^4.0.2",
-    "lodash": ">=4.17.19"
+    "lodash": "^4.17.20"
   }
 }
