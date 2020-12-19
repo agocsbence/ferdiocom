@@ -182,4 +182,150 @@ section {
             }
         }
     }
+    &.clients {
+        h1 {
+            -ms-grid-column-span: 3;
+            grid-column-end: 5;
+            -ms-grid-column: 2;
+            grid-column-start: 2;
+            -ms-grid-row-span: 3;
+            grid-row-end: 4;
+            -ms-grid-row: 1;
+            grid-row-start: 1;
+            -ms-grid-row-align: center;
+            align-self: center;
+        }
+        .logos-container, .logos-wrapper {
+            display: -ms-grid;
+            grid-auto-columns: 1fr;
+        }
+        .logos-wrapper {
+            -ms-grid-column-span: 8;
+            grid-column-end: 13;
+            -ms-grid-column: 5;
+            grid-column-start: 5;
+            -ms-grid-row-span: 3;
+            grid-row-end: 4;
+            -ms-grid-row: 1;
+            grid-row-start: 1;
+            display: grid;
+            justify-items: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            grid-auto-flow: column;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            grid-template-areas:
+                "Logo-1 Logo-1 Logo-2 Logo-2 Logo-3 Logo-3 Logo-4 Logo-4"
+                ". Logo-5 Logo-5 Logo-6 Logo-6 Logo-7 Logo-7 ."
+                "Logo-8 Logo-8 Logo-9 Logo-9 Logo-10 Logo-10 Logo-11 Logo-11";
+            -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            -ms-grid-rows: auto 20px auto 20px auto;
+            grid-template-rows: auto auto auto;
+            .logos-container {
+                display: grid;
+                height: 130px;
+                justify-items: center;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                grid-column-gap: 16px;
+                grid-row-gap: 16px;
+                -ms-grid-columns: 1fr;
+                grid-template-columns: 1fr;
+                -ms-grid-rows: auto;
+                grid-template-rows: auto;
+                -webkit-align-self: center;
+                -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+                align-self: center;
+                -ms-grid-column-align: center;
+                justify-self: center;
+                img {
+                    -ms-grid-column-span: 1;
+                    grid-column-end: 2;
+                    -ms-grid-column: 1;
+                    grid-column-start: 1;
+                    -ms-grid-row-span: 1;
+                    grid-row-end: 2;
+                    -ms-grid-row: 1;
+                    grid-row-start: 1;
+                }
+                .data-interval {
+                    position: absolute;
+                    display: none;
+                    width: 0;
+                    height: 0;
+                    max-height: 0;
+                    max-width: 0;
+                    min-height: 0;
+                    color: transparent;
+                }
+            }
+            .logo { align-self: auto; }
+            .logo-1 {
+                -ms-grid-row: 1;
+                -ms-grid-column: 1;
+                -ms-grid-column-span: 3;
+                grid-area: Logo-1;
+            }
+            .logo-2 {
+                -ms-grid-row: 1;
+                -ms-grid-column: 5;
+                grid-area: Logo-2;
+            }
+            .logo-3 {
+                -ms-grid-row: 1;
+                -ms-grid-column: 9;
+                grid-area: Logo-3;
+            }
+            .logo-4 {
+                -ms-grid-row: 1;
+                -ms-grid-column: 13;
+                grid-area: Logo-4;
+            }
+            .logo-5 {
+                -ms-grid-row: 3;
+                -ms-grid-column: 3;
+                grid-area: Logo-5;
+            }
+            .logo-6 {
+                -ms-grid-row: 3;
+                -ms-grid-column: 7;
+                grid-area: Logo-6;
+            }
+            .logo-7 {
+                -ms-grid-row: 3;
+                -ms-grid-column: 11;
+                grid-area: Logo-7;
+            }
+            .logo-8 {
+                -ms-grid-row: 5;
+                -ms-grid-column: 1;
+                grid-area: Logo-8;
+            }
+            .logo-9 {
+                -ms-grid-row: 5;
+                -ms-grid-column: 5;
+                -ms-grid-column-span: 3;
+                -ms-grid-row-align: auto;
+                align-self: auto;
+                grid-area: Logo-9;
+            }
+            .logo-10 {
+                -ms-grid-row: 5;
+                -ms-grid-column: 9;
+                grid-area: Logo-10;
+            }
+            .logo-11 {
+                -ms-grid-row: 5;
+                -ms-grid-column: 13;
+                grid-area: Logo-11;
+            }
+        }
+    }
 }
