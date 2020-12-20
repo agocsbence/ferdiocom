@@ -32,6 +32,42 @@ d:A.apply($jscomp$this,d)}}(f)),f={type:f.type};return b}(),ha={css:function(a,c
 function(a){a=P(a);for(var c=v.length;c--;)for(var d=v[c],b=d.animations,f=b.length;f--;)u(a,b[f].animatable.target)&&(b.splice(f,1),b.length||d.pause())};q.getValue=K;q.path=function(a,c){var d=h.str(a)?e(a)[0]:a,b=c||100;return function(a){return{el:d,property:a,totalLength:N(d)*(b/100)}}};q.setDashoffset=function(a){var c=N(a);a.setAttribute("stroke-dasharray",c);return c};q.bezier=A;q.easings=Q;q.timeline=function(a){var c=q(a);c.pause();c.duration=0;c.add=function(d){c.children.forEach(function(a){a.began=
 !0;a.completed=!0});m(d).forEach(function(b){var d=z(b,D(S,a||{}));d.targets=d.targets||a.targets;b=c.duration;var e=d.offset;d.autoplay=!1;d.direction=c.direction;d.offset=h.und(e)?b:L(e,b);c.began=!0;c.completed=!0;c.seek(d.offset);d=q(d);d.began=!0;d.completed=!0;d.duration>b&&(c.duration=d.duration);c.children.push(d)});c.seek(0);c.reset();c.autoplay&&c.restart();return c};return c};q.random=function(a,c){return Math.floor(Math.random()*(c-a+1))+a};return q});
 !function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+//TO SOLVE
+//listen to event when chat is opened or on an other element
+
+document.addEventListener('DOMContentLoaded', function(event) {
+	smallchat_script = document.querySelector("#smallchat-script")
+	// Function for rebooting Smallchat
+	function smallchat_restart() {
+		smallchat_box = document.querySelector("#Smallchat")
+		smallchat_box.remove()
+		Smallchat("reboot")
+		Smallchat("reset")
+		console.log("Smallchat restart requested")
+	}
+	// Function for switching Smallchat channel depeding on Weglot language
+	function smallchat_weglot_change(language) {
+		if (language == 'da') {
+			smallchat_script.setAttribute("src", "https://embed.small.chat/T031T7B6KGPVGXD2SU.js")
+			console.log("Smallchat language set to " + language)
+		} else {
+			smallchat_script.setAttribute("src", "https://embed.small.chat/T031T7B6KGPGP5FPB4.js")
+			console.log("Smallchat language set to default (" + language + ")")
+		}
+		smallchat_restart()
+	}
+	// When Weglot starts
+	Weglot.on("initialized", function() {
+		current_language = Weglot.getCurrentLang()
+		console.log("Current language is " + current_language)
+		smallchat_weglot_change(current_language)
+	})
+	// When Weglot changes
+		Weglot.on("languageChanged", function(newLanguage, prevLanguage) {
+		smallchat_weglot_change(newLanguage)
+	})
+})
+
 /*!
  * imagesLoaded PACKAGED v4.1.4
  * JavaScript is all like "You images are done yet or what?"
@@ -70,6 +106,31 @@ $(document).ready(function(){
   });
 
 });
+//MAYBE UNNECCESSARY
+
+
+$(document).ready(function() {
+
+  // INITIALISE WEGLOT
+  
+  Weglot.initialize({
+    api_key: 'wg_5b5e678aa14bad2208d40294b9f685cc9'
+  });
+  
+  // REMOVE ELEMENTS THAT SHOW ONLY IN ONE LANGUAGE
+  
+	$('.data-lang').each(function() {
+		if (window.location.href.indexOf('/da/') > -1 && $(this).text() == 'English') {
+			$(this).parent().remove();
+		} else if (!window.location.href.indexOf('/da/') > -1 && $(this).text() == 'Danish') {
+			$(this).parent().remove();
+		} else {
+			return
+		};
+	});
+
+});
+
 // const mobileMenu = document.querySelector('.mobile-menu'),
 //       closeBtn = document.querySelector('.close'),
 //       hamburger = document.querySelector('#navigation .mobile-menu-wrapper'),
