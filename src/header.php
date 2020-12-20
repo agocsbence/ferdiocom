@@ -5,7 +5,7 @@
 		<title><?php if(is_front_page() || is_home()){ echo get_bloginfo('name'); } else{ echo wp_title(''); echo ' | '; echo get_bloginfo('name'); }?></title>
 		<meta content="width=device-width, initial-scale=1" name="viewport"/>
         <link href="<?php bloginfo('template_url') ?>/assets/css/webflow.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/assets/css/extras.css" />
+        <link href="<?php bloginfo('template_url') ?>/assets/css/extras.css" rel="stylesheet" />
 		<script src="https://use.typekit.net/rdh1vqt.js" type="text/javascript"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
@@ -25,7 +25,7 @@
 					<div class="grid nav-menu-inner">
 						<div id="w-node-3dc00ea49685-48d2f8bd" class="flex vertical">
 							<div class="background rectangle menu"></div>
-							<a href="/work" class="nav-link w-nav-link">Work</a>
+							<a href="<?php echo get_permalink( 6 ); ?>" class="nav-link w-nav-link">Work</a>
 							<div data-delay="150" data-w-id="fdf06452-4737-3e48-74e8-e32048d2f8c3" class="nav-link nav-dropdown w-dropdown">
 								<div class="nav-link dropdown w-dropdown-toggle">
 									<div>Services</div>
@@ -35,9 +35,9 @@
 									<a href="/services/animation" class="nav-link dropdown-link w-dropdown-link">Animation</a>
 								</nav>
 							</div>
-							<a href="/contact" class="nav-link w-nav-link">Contact</a>
+							<a href="<?php echo get_permalink( 8 ); ?>" class="nav-link w-nav-link">Contact</a>
 							<div class="flex vertical">
-								<a href="/notebook" data-w-id="3a2bd110-3f20-455c-cb17-cb68218bb6de" class="nav-link subtitle w-nav-link">Notebook</a>
+								<a href="<?php echo get_permalink( 10 ); ?>" data-w-id="3a2bd110-3f20-455c-cb17-cb68218bb6de" class="nav-link subtitle w-nav-link">Notebook</a>
 								<p data-w-id="d44bcdfa-56b8-b2a0-e8f7-a1889629d1ea" class="before-spinner nav-link-subtitle">Cras quis nulla commodo.</p>
 							</div>
 							<div class="flex lang-switch">
@@ -49,7 +49,7 @@
 				</nav>
 				<div class="grid navbar-nav w-container">
 					<div id="w-node-e32048d2f8d4-48d2f8bd" data-w-id="fdf06452-4737-3e48-74e8-e32048d2f8d4" class="brand w-embed">
-						<a href="/" class="brand">
+						<a href="<?php echo get_home_url(); ?>" class="brand">
 							<svg width="328px" height="92px" viewBox="0 0 328 92" style="width: 100%; height: auto;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 								<g class="brand-f" width="100%" stroke="none" fill="currentColor" fill-rule="evenodd">
 									<g width="100%">
@@ -66,8 +66,8 @@
 					</div>
 					<div id="w-node-e32048d2f8d5-48d2f8bd" class="menu-button w-nav-button">
 						<div class="menu-icon">
-							<div data-w-id="fdf06452-4737-3e48-74e8-e32048d2f8d7" class="menu-line menu-line-1"></div>
-							<div data-w-id="fdf06452-4737-3e48-74e8-e32048d2f8d8" class="menu-line menu-line-2"></div>
+							<div class="menu-line menu-line-1"></div>
+							<div class="menu-line menu-line-2"></div>
 						</div>
 					</div>
 				</div>

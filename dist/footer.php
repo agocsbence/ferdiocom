@@ -122,9 +122,9 @@
 					</div>
 					<div id="w-node-20887a9c8bf9-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
 						<a href="/" aria-current="page" class="button white no-arrow w-button w--current">Home</a>
-						<a href="/work" class="button white no-arrow w-button">Work</a>
-						<a href="/contact" class="button white no-arrow w-button">Contact</a>
-						<a href="/notebook" class="button white no-arrow w-button">Notebook</a>
+						<a href="<?php echo get_permalink( 6 ); ?>" class="button white no-arrow w-button">Work</a>
+						<a href="<?php echo get_permalink( 8 ); ?>" class="button white no-arrow w-button">Contact</a>
+						<a href="<?php echo get_permalink( 10 ); ?>" class="button white no-arrow w-button">Notebook</a>
 					</div>
 					<div id="w-node-20887a9c8c02-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
 						<h4 class="before-spinner">Services</h4>
@@ -169,7 +169,7 @@
 			    var current = 0;   // fixed, please do not modfy;
 			    var imgs = $(this).find('img');
 			    var imgNum = imgs.length;    // How many pictures do you have
-			    var interval = 10000; // You can set single picture show time;
+			    var interval = 8000; // You can set single picture show time;
 			    var delay = (parseInt($(this).find('.data-interval').text()))*1000;
 			
 			    setTimeout(function(){
