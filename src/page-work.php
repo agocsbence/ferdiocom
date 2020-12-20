@@ -15,7 +15,7 @@ get_header();
             <div data-react-id="cases" data-react-type="shape" class="background circle big"></div>
         </div>
     </div>
-    <div class="section hero">
+    <div class="section hero work">
         <div class="grid w-container">
             <div id="w-node-ee99f39b64dd-b70139de" class="hero-text">
                 <h1>Explore our work</h1>
@@ -857,8 +857,8 @@ get_header();
     <div data-token="952522550.11c2652.a430c8f2c03f44daad9275ed7672cab3" class="section instagram">
         <div class="w-layout-grid grid">
             <div id="w-node-e37922c5d468-b70139de" class="instagram-header">
-                <h1 class="h1-small">Latest peek into our work </h1>
-                <a href="https://instagram.com/ferdiocom/" target="_blank" class="button w-button">our instagram feed</a>
+                <h1 class="h1-small">Stay in the loop </h1>
+                <a href="https://instagram.com/ferdiocom/" target="_blank" class="button w-button">check out our instagram</a>
             </div>
             <div id="w-node-f6021605eb6a-b70139de" class="w-layout-grid grid _20-gap">
                 <div id="w-node-9a09831fa1a9-b70139de" class="thumbnail-wrapper instagram"><a data-react-id="cases" data-react-type="trigger-target" data-react-center="true" href="#" target="_blank" class="entry-link instagram w-inline-block"></a></div>

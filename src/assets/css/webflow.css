@@ -2050,6 +2050,14 @@ blockquote {
     -ms-grid-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
 }
+.section.hero.animation {
+    margin-top: 10rem;
+}
+.section.hero.work {
+    margin-top: 5rem;
+    min-height: 0;
+    margin-bottom: 8rem;
+}
 .section.hero.notebook {
     overflow: hidden;
     height: 100vh;
