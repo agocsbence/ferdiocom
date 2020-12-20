@@ -29,6 +29,26 @@ add_theme_support( 'post-thumbnails' );
 // 	));	
 // }
 
+//CHANGE POSTS NAME
+add_action( 'init', 'change_post_object' );
+function change_post_object() {
+    $get_post_type = get_post_type_object('post');
+    $labels = $get_post_type->labels;
+        $labels->name = 'Notebook Posts';
+        $labels->singular_name = 'Notebook Posts';
+        $labels->add_new = 'Add New';
+        $labels->add_new_item = 'Add Notebook Post';
+        $labels->edit_item = 'Edit Post';
+        $labels->new_item = 'Post';
+        $labels->view_item = 'View Posts';
+        $labels->search_items = 'Search Post';
+        $labels->not_found = 'No Posts found';
+        $labels->not_found_in_trash = 'No Posts found in Trash';
+        $labels->all_items = 'All Notebook Posts';
+        $labels->menu_name = 'Notebook Posts';
+        $labels->name_admin_bar = 'Notebook Posts';
+}
+
 // REGISTER MENU AREAS
 function register_header_menu() {
     register_nav_menu('header-menu',__( 'Header Menu', 'ferdio' ));
