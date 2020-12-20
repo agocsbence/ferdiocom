@@ -21,7 +21,7 @@ get_header();
                 <div data-react-id="cases" data-react-type="shape" class="background rectangle infographics"></div>
             </div>
         </div>
-        <div class="section hero animation">
+        <div class="section hero page-animation">
             <div class="grid w-container">
                 <div id="w-node-02331feea781-3d0139e4" class="hero-text info">
                     <h1>Explain it with animation</h1>

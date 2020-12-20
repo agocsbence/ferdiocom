@@ -2050,7 +2050,7 @@ blockquote {
     -ms-grid-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
 }
-.section.hero.animation {
+.section.hero.page-animation {
     margin-top: 10rem;
 }
 .section.hero.work {
