@@ -37,8 +37,8 @@ include get_theme_file_path( '/includes/home-hero.php' );
 							<div data-react-id="cases" data-react-type="shape" class="background circle"></div>
 						</div>
 						<div id="w-node-e3c82d41ba7e-320139c1" class="flex vertical">
-							<h1>Our work <br/>at a glance</h1>
-							<a href="/work" class="button w-button">view All projects</a>
+							<h1>Our work <br/>at a glanceee</h1>
+							<a href="<?php echo get_permalink( 6 ); ?>" class="button w-button"><?php echo get_permalink( 6 ); ?> view All projects</a>
 						</div>
 						<div id="w-node-c1df806a468e-320139c1" class="first-case w-dyn-list">
 							<div role="list" class="collection-list w-dyn-items">

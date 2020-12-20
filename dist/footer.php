@@ -1,4 +1,4 @@
-<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be4" class="section footer">
+			<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be4" class="section footer">
 				<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be5" class="w-layout-grid grid footer-background-grid">
 					<div id="w-node-3bd8d68f22fb-7a9c8be4" class="background-wrapper footer">
 						<div class="background footer-bg w-embed">
@@ -120,10 +120,16 @@
 						</div>
 						<div class="footer-p">Vesterbrogade 20, 1st floor, 1620 Copenhagen V, Denmark<br/><strong>©</strong> 2020 Ferdio ApS</div>
 					</div>
-					<div id="w-node-20887a9c8bf9-7a9c8be4" class="w-layout-grid footer-grid footer-col-2"><a href="/" aria-current="page" class="button white no-arrow w-button w--current">Home</a><a href="/work" class="button white no-arrow w-button">Work</a><a href="/contact" class="button white no-arrow w-button">Contact</a><a href="/notebook" class="button white no-arrow w-button">Notebook</a></div>
+					<div id="w-node-20887a9c8bf9-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
+						<a href="/" aria-current="page" class="button white no-arrow w-button w--current">Home</a>
+						<a href="/work" class="button white no-arrow w-button">Work</a>
+						<a href="/contact" class="button white no-arrow w-button">Contact</a>
+						<a href="/notebook" class="button white no-arrow w-button">Notebook</a>
+					</div>
 					<div id="w-node-20887a9c8c02-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
 						<h4 class="before-spinner">Services</h4>
-						<a href="/services/infographics" class="button white no-arrow w-button">Infographics</a><a href="/services/animation" class="button white no-arrow w-button">Animation</a>
+						<a href="/services/infographics" class="button white no-arrow w-button">Infographics</a>
+						<a href="/services/animation" class="button white no-arrow w-button">Animation</a>
 					</div>
 				</div>
 			</div>
@@ -137,7 +143,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js" integrity="sha256-91c9XEM8yFH2Mn9fn8yQaNRvJsEruL7Hctr6JiIY7Uw=" crossorigin="anonymous"></script>
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		<!-- GitHub-hosted JS -->
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/case-links.js"></script>
+		<!-- <script src="https://combinatronics.com/ferdiocom/website-extras/master/case-links.js"></script> -->
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/videos.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/home-hero.js"></script>
@@ -149,6 +155,7 @@
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-box.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-language.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script>
+		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
 		
 		<!-- HOME SCRIPT -->
 		<script type="text/javascript">
