@@ -1,4 +1,4 @@
-<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be4" class="section footer">
+			<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be4" class="section footer">
 				<div data-w-id="55ed41e0-a94d-7a51-945c-20887a9c8be5" class="w-layout-grid grid footer-background-grid">
 					<div id="w-node-3bd8d68f22fb-7a9c8be4" class="background-wrapper footer">
 						<div class="background footer-bg w-embed">
@@ -120,10 +120,16 @@
 						</div>
 						<div class="footer-p">Vesterbrogade 20, 1st floor, 1620 Copenhagen V, Denmark<br/><strong>©</strong> 2020 Ferdio ApS</div>
 					</div>
-					<div id="w-node-20887a9c8bf9-7a9c8be4" class="w-layout-grid footer-grid footer-col-2"><a href="/" aria-current="page" class="button white no-arrow w-button w--current">Home</a><a href="/work" class="button white no-arrow w-button">Work</a><a href="/contact" class="button white no-arrow w-button">Contact</a><a href="/notebook" class="button white no-arrow w-button">Notebook</a></div>
+					<div id="w-node-20887a9c8bf9-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
+						<a href="/" aria-current="page" class="button white no-arrow w-button w--current">Home</a>
+						<a href="/work" class="button white no-arrow w-button">Work</a>
+						<a href="/contact" class="button white no-arrow w-button">Contact</a>
+						<a href="/notebook" class="button white no-arrow w-button">Notebook</a>
+					</div>
 					<div id="w-node-20887a9c8c02-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
 						<h4 class="before-spinner">Services</h4>
-						<a href="/services/infographics" class="button white no-arrow w-button">Infographics</a><a href="/services/animation" class="button white no-arrow w-button">Animation</a>
+						<a href="/services/infographics" class="button white no-arrow w-button">Infographics</a>
+						<a href="/services/animation" class="button white no-arrow w-button">Animation</a>
 					</div>
 				</div>
 			</div>
