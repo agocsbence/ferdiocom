@@ -31,8 +31,8 @@
 									<div>Services</div>
 								</div>
 								<nav class="dropdown-list w-dropdown-list">
-									<a href="/services/infographics" class="nav-link dropdown-link w-dropdown-link">Infographics</a>
-									<a href="/services/animation" class="nav-link dropdown-link w-dropdown-link">Animation</a>
+									<a href="<?php echo get_permalink( 13 ); ?>" class="nav-link dropdown-link w-dropdown-link">Infographics</a>
+									<a href="<?php echo get_permalink( 15 ); ?>" class="nav-link dropdown-link w-dropdown-link">Animation</a>
 								</nav>
 							</div>
 							<a href="<?php echo get_permalink( 8 ); ?>" class="nav-link w-nav-link">Contact</a>
