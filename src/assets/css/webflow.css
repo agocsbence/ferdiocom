@@ -3283,7 +3283,7 @@ blockquote {
     opacity: 0;
 }
 .dropdown-list.w--open {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     width: auto;
     margin-top: 0;
