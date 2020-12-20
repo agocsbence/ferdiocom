@@ -125,6 +125,7 @@
 						<a href="<?php echo get_permalink( 6 ); ?>" class="button white no-arrow w-button">Work</a>
 						<a href="<?php echo get_permalink( 8 ); ?>" class="button white no-arrow w-button">Contact</a>
 						<a href="<?php echo get_permalink( 10 ); ?>" class="button white no-arrow w-button">Notebook</a>
+						<a href="" class="button white no-arrow w-button">Articles</a>
 					</div>
 					<div id="w-node-20887a9c8c02-7a9c8be4" class="w-layout-grid footer-grid footer-col-2">
 						<h4 class="before-spinner">Services</h4>
@@ -143,7 +144,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js" integrity="sha256-91c9XEM8yFH2Mn9fn8yQaNRvJsEruL7Hctr6JiIY7Uw=" crossorigin="anonymous"></script>
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		<!-- GitHub-hosted JS -->
-		<!-- <script src="https://combinatronics.com/ferdiocom/website-extras/master/case-links.js"></script> -->
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/videos.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/home-hero.js"></script>

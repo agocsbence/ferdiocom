@@ -2060,7 +2060,8 @@ blockquote {
 }
 .section.hero.notebook {
     overflow: hidden;
-    height: 100vh;
+    height: auto;
+    min-height: 0;
     max-height: 700px;
     margin-bottom: 50px;
     padding-bottom: 100px;
@@ -2068,6 +2069,10 @@ blockquote {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+}
+.notebook-hero-container {
+    align-self: flex-end;
+    height: 100%;
 }
 .section.hero.non-featured {
     min-height: auto;

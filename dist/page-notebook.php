@@ -10,7 +10,7 @@ get_header();
 ?>
 <div class="main-content">
     <div data-w-id="ff6c8c66-ed68-3e85-41d3-73c4abfcdcba" class="section hero notebook dark-bg">
-        <div class="grid w-container">
+        <div class="notebook-hero-container grid w-container">
             <div id="w-node-cd59a52e0c79-810139e1" class="background-wrapper justify-center"><div class="background circle big dark"></div></div>
             <div id="w-node-73c4abfcdcbd-810139e1" class="hero-text">
                 <h1 class="h1-small white">
@@ -31,7 +31,7 @@ get_header();
                     <div role="listitem" class="w-dyn-item">
                         <div class="w-embed">
                             <img
-                                src=""
+                                src="<?php bloginfo('template_url') ?>/assets/img/notebook-flipping-book.png"
                                 alt=""
                                 class="animation hidden"
                                 sizes="100vw"
