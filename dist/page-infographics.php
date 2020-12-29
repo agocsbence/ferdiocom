@@ -60,32 +60,6 @@ get_header();
                     class="infographics-hero-img"
                 />
                 <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69af5de0df14138ced453_Tablet%201-3.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69af5de0df14138ced453_Tablet%201-3-p-500.png  500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69af5de0df14138ced453_Tablet%201-3-p-800.png  800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69af5de0df14138ced453_Tablet%201-3.png       1022w
-                    "
-                    sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-d0d1a0cf17be-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium.jpg"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium-p-500.jpeg   500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium-p-800.jpeg   800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium-p-1600.jpeg 1600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium-p-2600.jpeg 2600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69b7894b08255a2e3bdda_1741%20Ferdio%20123_medium.jpg         3000w
-                    "
-                    sizes="(max-width: 479px) 10.4666748046875px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-3ea6ef00d03b-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
                     src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater.png"
                     srcset="
                         https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater-p-500.png 500w,
