@@ -159,124 +159,121 @@
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script>
 		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
 
-		<?php if (is_home()) {
-			echo 'kezdőlap';
-		} ?>
-		
-		<!-- HOME SCRIPT -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-			
-			  var logos = $('.clients .logos-container');
-			  var fadeTime = $('.clients').attr('data-fade-time');  // You can set fadeing-transition time;
-			 
-			  logos.each(function() {
-			    var next = 1;      // fixed, please do not modfy;
-			    var current = 0;   // fixed, please do not modfy;
-			    var imgs = $(this).find('img');
-			    var imgNum = imgs.length;    // How many pictures do you have
-			    var interval = 8000; // You can set single picture show time;
-			    var delay = (parseInt($(this).find('.data-interval').text()))*1000;
-			
-			    setTimeout(function(){
-			      nextFadeIn();
-			    }, delay);
-			
-			    function nextFadeIn(){
-			    //make image fade in and fade out at one time, without splash vsual;
-			      imgs.eq(current).delay(interval).fadeOut(fadeTime)
-			      .end().eq(next).delay(interval).hide().fadeIn(fadeTime, nextFadeIn);
-			          
-			      // if You have 5 images, then (eq) range is 0~4 
-			      // so we should reset to 0 when value > 4; 
-			      if(next < imgNum-1){ next++; } else { next = 0;}
-			      if(current < imgNum-1){ current++; } else { current = 0; }
-			    };
-			
-			  });
-			
-			});
-		</script>
-		
-		<!-- WORK SCRIPT -->
-		<script>
-            // TABS MENU
-            $(document).ready(function(){
-            		function scroll () {
-                	$("html, body").animate({ scrollTop: $('.entries').offset().top - parseInt($('.hero').css('padding-bottom')) - 20}, "slow");
-                  setTimeout(function(){
-                  	$('.grid.navbar-nav').css({opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'});
-                  }, 1000);
-                };
-                // get the tab from url
-                var hash = window.location.hash;
-                // if a hash is present (when you come to this page)
-                if (hash !='') {
-                    // show the tab
-                    scroll();
-                    $('.tabs-menu #all').trigger('click');
-                    $('.tabs-content .tabs-menu ' + hash).trigger('click');
-                };
-                
-                	$('#button-see-all').on('click', function() {
-                  	scroll();
-                    $('.tag#all').trigger('click');
-                	});
-                  
-                  $('.tag').on('click', function() {
-                    scroll();
-                	});
-                
-            });
-            
-            // INSTAGRAM FEED
-            
-            $(document).ready(function(){
-            
-            	var token = $('.section.instagram').data('token'),
-            		container = $('.section.instagram .thumbnail-wrapper .entry-link'),
-                	num_photos = container.length;
-             
-            	$.ajax({
-            		url: 'https://api.instagram.com/v1/users/self/media/recent',
-            		dataType: 'jsonp',
-            		type: 'GET',
-            		data: {access_token: token, count: num_photos},
-            		success: function(data){
-            			for( x in data.data ){
-            				container.eq(x).attr('href', data.data[x].link);
-            				container.eq(x).css('background-image', 'url(' + data.data[x].images.standard_resolution.url +')');
-            			}
-            		},
-            		error: function(data){
-            			console.log(data);
-            		}
-            	});
-            
-            });
-		</script>
-		
-		<!-- NOTEBOOK SCRIPT -->
-		<script>
-            $(document).ready(function () {
-                if (location.hash) {
-                    setTimeout(function () {
-                        window.scrollTo(0, 0);
-                    }, 0);
-                }
-                // get the tab from url
-                var hash = window.location.hash;
-                var cleanHash = hash.replace("%20", "-");
-                // if a hash is present (when you come to this page)
-                if (hash != "") {
-                    // show the tab
-                    $(".tabs-menu " + cleanHash).trigger("click");
-                    console.log("click");
-                }
-            });
-        </script>
+		<?php if (is_home()) { ?>
+			<script type="text/javascript">
+				$(document).ready(function(){
+				
+				var logos = $('.clients .logos-container');
+				var fadeTime = $('.clients').attr('data-fade-time');  // You can set fadeing-transition time;
+				
+				logos.each(function() {
+					var next = 1;      // fixed, please do not modfy;
+					var current = 0;   // fixed, please do not modfy;
+					var imgs = $(this).find('img');
+					var imgNum = imgs.length;    // How many pictures do you have
+					var interval = 8000; // You can set single picture show time;
+					var delay = (parseInt($(this).find('.data-interval').text()))*1000;
+				
+					setTimeout(function(){
+					nextFadeIn();
+					}, delay);
+				
+					function nextFadeIn(){
+					//make image fade in and fade out at one time, without splash vsual;
+					imgs.eq(current).delay(interval).fadeOut(fadeTime)
+					.end().eq(next).delay(interval).hide().fadeIn(fadeTime, nextFadeIn);
+						
+					// if You have 5 images, then (eq) range is 0~4 
+					// so we should reset to 0 when value > 4; 
+					if(next < imgNum-1){ next++; } else { next = 0;}
+					if(current < imgNum-1){ current++; } else { current = 0; }
+					};
+				
+				});
+				
+				});
+			</script>
+		<?php } else if (is_page_template( 'page-work.php' )) { ?>
 
-		
+			<script>
+				// TABS MENU
+				$(document).ready(function(){
+						function scroll () {
+						$("html, body").animate({ scrollTop: $('.entries').offset().top - parseInt($('.hero').css('padding-bottom')) - 20}, "slow");
+					setTimeout(function(){
+						$('.grid.navbar-nav').css({opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)'});
+					}, 1000);
+					};
+					// get the tab from url
+					var hash = window.location.hash;
+					// if a hash is present (when you come to this page)
+					if (hash !='') {
+						// show the tab
+						scroll();
+						$('.tabs-menu #all').trigger('click');
+						$('.tabs-content .tabs-menu ' + hash).trigger('click');
+					};
+					
+						$('#button-see-all').on('click', function() {
+						scroll();
+						$('.tag#all').trigger('click');
+						});
+					
+					$('.tag').on('click', function() {
+						scroll();
+						});
+					
+				});
+				
+				// INSTAGRAM FEED
+				
+				$(document).ready(function(){
+				
+					var token = $('.section.instagram').data('token'),
+						container = $('.section.instagram .thumbnail-wrapper .entry-link'),
+						num_photos = container.length;
+				
+					$.ajax({
+						url: 'https://api.instagram.com/v1/users/self/media/recent',
+						dataType: 'jsonp',
+						type: 'GET',
+						data: {access_token: token, count: num_photos},
+						success: function(data){
+							for( x in data.data ){
+								container.eq(x).attr('href', data.data[x].link);
+								container.eq(x).css('background-image', 'url(' + data.data[x].images.standard_resolution.url +')');
+							}
+						},
+						error: function(data){
+							console.log(data);
+						}
+					});
+				
+				});
+			</script>
+
+		<?php } else if ( is_page_template('page-notebook.php') ) { ?>
+
+			<script>
+				$(document).ready(function () {
+					if (location.hash) {
+						setTimeout(function () {
+							window.scrollTo(0, 0);
+						}, 0);
+					}
+					// get the tab from url
+					var hash = window.location.hash;
+					var cleanHash = hash.replace("%20", "-");
+					// if a hash is present (when you come to this page)
+					if (hash != "") {
+						// show the tab
+						$(".tabs-menu " + cleanHash).trigger("click");
+						console.log("click");
+					}
+				});
+			</script>
+
+		<?php } ?>
 
         <?php wp_footer(); ?>
 	</body>
