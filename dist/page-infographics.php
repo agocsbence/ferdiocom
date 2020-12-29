@@ -31,7 +31,7 @@ get_header();
                         var_dump($image_1);
                         ?>
                         <div id="hero">
-                            <?php echo wp_calculate_image_srcset( $image_1['sizes'], $image_1['url'], '', $image_1['ID'] ) ?>
+                            <?php echo wp_calculate_image_srcset( $image_1['sizes'], $image_1['url'], '', $image_1['ID'] ); ?>
                             <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
                             <img src="<?php echo $image_1['url']; ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
                             
