@@ -31,7 +31,7 @@ get_header();
                         ?>
                         <div id="hero">
 
-                            <?php echo wp_get_attachment_image( $image_1['ID'], $size, "", array( "class" => "img-responsive", "id" => "image-".$image_1["ID"] ) ); ?>
+                            <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "img-responsive", "id" => "hero-image-1" ) ); ?>
                             <?php echo wp_get_attachment_image( $image_2['ID'], $size ); ?>
                             <?php echo wp_get_attachment_image( $image_3['ID'], $size ); ?>
                             
