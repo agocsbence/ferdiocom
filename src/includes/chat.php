@@ -49,8 +49,8 @@
             </div>
             <div id="w-node-09ae3ca03263-b55ea66f" class="chat-avatar"><img src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dbaa4b846957168ffb8b084_ferdio-avatar.jpg" alt=""/></div>
             <div id="w-node-f68b61013def-b55ea66f" class="chat-message">
-                <div class="before-spinner"><strong>ferdio</strong></div>
-                <div class="before-spinner">Hey there 👋 How can we help?</div>
+                <div class="before-spinner"><strong>ferdiobot</strong></div>
+                <div class="before-spinner">Hey there 👋 What can I help you with?</div>
                 <div class="chat-corner"></div>
             </div>
             <div id="w-node-2ba987dafd5d-b55ea66f" class="w-embed">
@@ -60,6 +60,6 @@
                 </form>
             </div>
         </div>
-        <h1 id="w-node-2a8cb55ea676-b55ea66f" class="margin-bottom-0">Let&#x27;s get in touch!</h1>
+        <h1 id="w-node-2a8cb55ea676-b55ea66f" class="margin-bottom-0">A project in mind?</h1>
     </div>
 </div>

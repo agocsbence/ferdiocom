@@ -1,6 +1,6 @@
 <div data-fade-time="800" class="section clients">
     <div class="grid w-container">
-        <h1 id="w-node-de59ea740b19-320139c1" class="margin-bottom-0">Clients we’ve worked with</h1>
+        <h1 id="w-node-de59ea740b19-320139c1" class="margin-bottom-0">Clients we’ve helped</h1>
         <div id="w-node-36b07bcfb8b6-320139c1" class="logos-wrapper">
             <div id="w-node-b26b86ccddd1-320139c1" class="w-dyn-list">
                 <div role="list" class="w-dyn-items">

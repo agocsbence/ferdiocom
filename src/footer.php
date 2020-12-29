@@ -158,6 +158,10 @@
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-language.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script>
 		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
+
+		<?php if (is_home()) {
+			echo 'kezdőlap';
+		} ?>
 		
 		<!-- HOME SCRIPT -->
 		<script type="text/javascript">

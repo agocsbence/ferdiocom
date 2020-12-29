@@ -14,7 +14,7 @@ endwhile; wp_reset_query();
             <div data-react-id="cases" data-react-type="shape" class="background circle"></div>
         </div>
         <div id="w-node-e3c82d41ba7e-320139c1" class="flex vertical">
-            <h1>Our work <br/>at a glance</h1>
+            <h1>Our work <br/>at a glance.</h1>
             <a href="<?php echo get_permalink( 6 ); ?>" class="button w-button"> view All projects</a>
         </div>
         <div id="w-node-c1df806a468e-320139c1" class="first-case w-dyn-list">

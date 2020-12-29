@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="grid _150-gap w-container">
-        <h1 id="w-node-47e111408176-320139c1" class="margin-bottom-0">Specialized services <br/>to explain it visually</h1>
+        <h1 id="w-node-47e111408176-320139c1" class="margin-bottom-0">Services to <br/>explain it visually</h1>
         <div id="w-node-499fd34b3f99-320139c1" class="w-layout-grid grid _250-gap">
             <div data-animation="true" data-react-type="target" data-react-id="services" id="w-node-47822782c3af-320139c1" class="w-layout-grid grid">
                 <div id="w-node-9bdae9f00694-320139c1" class="cms-animation left w-dyn-list">
@@ -53,8 +53,8 @@
                 </div>
                 <div id="w-node-ab121b13bbc5-320139c1">
                     <h3 class="h3-bigger">Infographics</h3>
-                    <p>Create content that matters. Explain it with powerful infographics using visual tools like charts, illustrations, diagrams.</p>
-                    <a data-react-id="services" data-react-type="trigger" data-w-id="826de3f5-e7d8-29f1-7e68-01d377d8d7fd" href="/services/infographics" class="button w-button">read more</a>
+                    <p>Explain and communicate information, data and knowledge visually, by using visual tools like charts, illustrations and diagrams.</p>
+                    <a data-react-id="services" data-react-type="trigger" data-w-id="826de3f5-e7d8-29f1-7e68-01d377d8d7fd" href="/services/infographics" class="button w-button">learn more</a>
                 </div>
             </div>
             <div data-animation="true" data-react-type="target" data-react-id="services" id="w-node-aa1a8e37090a-320139c1" class="w-layout-grid grid">
@@ -104,9 +104,9 @@
                     </div>
                 </div>
                 <div id="w-node-b0fff53da510-320139c1">
-                    <h3 class="h3-bigger">Animations</h3>
-                    <p>Bring your content to life. As the attention span of your audience gets shorter, animation is the perfect way to transform your information into visual stories.</p>
-                    <a data-react-id="services" data-react-type="trigger" data-w-id="43a10933-5cfa-fb7e-a8d8-b0fff53da515" href="/services/animation" class="button w-button">read more</a>
+                    <h3 class="h3-bigger">Animation</h3>
+                    <p>As the attention span of your audience gets shorter, animation is the perfect way to deliver information in very little time.</p>
+                    <a data-react-id="services" data-react-type="trigger" data-w-id="43a10933-5cfa-fb7e-a8d8-b0fff53da515" href="/services/animation" class="button w-button">learn more</a>
                 </div>
             </div>
         </div>
