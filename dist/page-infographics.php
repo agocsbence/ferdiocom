@@ -28,11 +28,12 @@ get_header();
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
-                        var_dump($image_1);
                         ?>
                         <div id="hero">
-                            <?php var_dump( wp_get_attachment_image_srcset( $image_1['ID'], 'medium' ) ); ?>
-                            <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
+
+                            <?php echo wp_get_attachment_image( $image_1['ID'], $size, "", array( "class" => "img-responsive", "id" => "image-".$image_1["ID"] ) ); ?>
+                            <?php echo wp_get_attachment_image( $image_2['ID'], $size ); ?>
+                            <?php echo wp_get_attachment_image( $image_3['ID'], $size ); ?>
                             
                         </div>
                     <?php endwhile; ?>
