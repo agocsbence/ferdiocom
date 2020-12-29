@@ -46,14 +46,14 @@
         margin-left: -50px;
     }
     #hero-image-5 {
-        -ms-grid-column-span: 10;
+        -ms-grid-column-span: 7;
         grid-column-end: 25;
-        -ms-grid-column: 15;
-        grid-column-start: 15;
+        -ms-grid-column: 18;
+        grid-column-start: 18;
         -ms-grid-row-span: 4;
-        grid-row-end: 7;
-        -ms-grid-row: 3;
-        grid-row-start: 3;
+        grid-row-end: 10;
+        -ms-grid-row: 6;
+        grid-row-start: 6;
         margin-left: 20px;
     }
     #hero-image-6 {
@@ -62,19 +62,19 @@
         -ms-grid-column: 20;
         grid-column-start: 20;
         -ms-grid-row-span: 4;
-        grid-row-end: 13;
-        -ms-grid-row: 9;
-        grid-row-start: 9;
+        grid-row-end: 14;
+        -ms-grid-row: 10;
+        grid-row-start: 10;
         margin-left: 120px;
     }
     #hero-image-7 {
-        -ms-grid-column-span: 5;
+        -ms-grid-column-span: 6;
         grid-column-end: 25;
-        -ms-grid-column: 20;
-        grid-column-start: 20;
+        -ms-grid-column: 19;
+        grid-column-start: 19;
         -ms-grid-row-span: 5;
-        grid-row-end: 16;
-        -ms-grid-row: 11;
-        grid-row-start: 11;
+        grid-row-end: 19;
+        -ms-grid-row: 14;
+        grid-row-start: 14;
     }
 }
