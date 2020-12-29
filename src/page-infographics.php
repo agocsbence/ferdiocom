@@ -28,17 +28,12 @@ get_header();
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
-                        var_dump($image_1);
                         ?>
                         <div id="hero">
-                            <img src="<?php echo esc_url( $image_1['url'] ); ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
+                            <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
+                            <img src="<?php echo $image_1['url']; ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
                             
                         </div>
-                        <style type="text/css">
-                            #hero {
-                                background-color: <?php the_sub_field('color'); ?>;
-                            }
-                        </style>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 <img
