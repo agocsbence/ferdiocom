@@ -31,7 +31,7 @@ get_header();
                         $image_5 = get_sub_field('image_5');
                         $image_6 = get_sub_field('image_6');
                         $image_7 = get_sub_field('image_7');
-                        $size = 'medium'; // (thumbnail, medium, large, full or custom size)
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
                         ?>
                         <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "img-responsive", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium') ) ); ?>
                         <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "img-responsive", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
