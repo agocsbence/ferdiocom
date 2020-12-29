@@ -32,13 +32,13 @@ get_header();
                         $image_7 = get_sub_field('image_7');
                         $size = 'full'; // (thumbnail, medium, large, full or custom size)
                         ?>
-                        <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "img-responsive", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "img-responsive", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_3, $size, "", array( "class" => "img-responsive", "id" => "hero-image-3", "srcset" => wp_get_attachment_image_srcset($image_3, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_4, $size, "", array( "class" => "img-responsive", "id" => "hero-image-4", "srcset" => wp_get_attachment_image_srcset($image_4, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "img-responsive", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "img-responsive", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "img-responsive", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_3, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-3", "srcset" => wp_get_attachment_image_srcset($image_3, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_4, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-4", "srcset" => wp_get_attachment_image_srcset($image_4, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 <img
@@ -68,24 +68,6 @@ get_header();
                     "
                     sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
                     id="w-node-e392452b7b52-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit.png"
-                    width="693"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-500.png   500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-800.png   800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-1080.png 1080w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-1600.png 1600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-2000.png 2000w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-2600.png 2600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit-p-3200.png 3200w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd692282383b044398ec447_Design_GoogleNL_2-01edit.png        4001w
-                    "
-                    sizes="(max-width: 479px) 10.4666748046875px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-ba5aa4a56a8b-960139e3"
                     alt=""
                     class="infographics-hero-img"
                 />
