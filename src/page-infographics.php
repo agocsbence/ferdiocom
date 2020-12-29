@@ -28,6 +28,7 @@ get_header();
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
+                        var_dump($image_1);
                         ?>
                         <div id="hero">
                             <img src="<?php echo esc_url( $image_1['url'] ); ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
