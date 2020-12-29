@@ -17,8 +17,7 @@ get_header();
         </div>
         <div class="section hero">
             <div class="grid w-container"></div>
-            <div data-w-id="409539a1-d839-57c9-2e34-fe68e6246938" class="grid infographics-hero">
-                <h2>hello</h2>
+            <div class="grid infographics-hero">
 
                 <?php if( have_rows('hero_images') ): ?>
                     <?php while( have_rows('hero_images') ): the_row(); 

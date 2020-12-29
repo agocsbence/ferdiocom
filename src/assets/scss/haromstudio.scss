@@ -1,0 +1,16 @@
+.img-responsive {
+    height: auto;
+}
+
+.grid.infographics-hero {
+    #hero-image-1 {
+        -ms-grid-column-span: 9;
+        grid-column-end: 18;
+        -ms-grid-column: 9;
+        grid-column-start: 9;
+        -ms-grid-row-span: 5;
+        grid-row-end: 13;
+        -ms-grid-row: 8;
+        grid-row-start: 8;
+    }
+}

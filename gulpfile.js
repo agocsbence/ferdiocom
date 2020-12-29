@@ -14,7 +14,7 @@ gulp.task('styles', function () {
     autoprefixer(),
     cssnano({zindex: false})
   ];
-  return gulp.src('src/assets/scss/style.scss')
+  return gulp.src('src/assets/scss/haromstudio.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe(gulp.dest('dist/assets/css/'));
