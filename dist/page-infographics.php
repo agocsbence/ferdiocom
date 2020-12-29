@@ -30,8 +30,7 @@ get_header();
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
                         ?>
                         <div id="hero">
-                            <?php echo wp_get_attachment_image( $image_1, $size ); ?>
-                            <img src="<?php echo esc_url( $image_1['medium'] ); ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
+                            <img src="<?php echo esc_url( $image_1['url'] ); ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
                             
                         </div>
                         <style type="text/css">
