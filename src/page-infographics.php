@@ -31,9 +31,8 @@ get_header();
                         var_dump($image_1);
                         ?>
                         <div id="hero">
-                            <?php var_dump( wp_get_attachment_image_srcset( $image_1['ID'], array(500, 500) ) ); ?>
+                            <?php var_dump( wp_get_attachment_image_srcset( $image_1['ID'], 'medium' ) ); ?>
                             <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
-                            <img src="<?php echo $image_1['url']; ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
                             
                         </div>
                     <?php endwhile; ?>
