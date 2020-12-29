@@ -27,15 +27,19 @@ get_header();
                         $image_1 = get_sub_field('image_1');
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
+                        $image_4 = get_sub_field('image_4');
+                        $image_5 = get_sub_field('image_5');
+                        $image_6 = get_sub_field('image_6');
+                        $image_7 = get_sub_field('image_7');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
                         ?>
-                        <div id="hero">
-
-                            <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "img-responsive", "id" => "hero-image-1" ) ); ?>
-                            <?php echo wp_get_attachment_image( $image_2['ID'], $size ); ?>
-                            <?php echo wp_get_attachment_image( $image_3['ID'], $size ); ?>
-                            
-                        </div>
+                        <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "img-responsive", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "img-responsive", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_3, $size, "", array( "class" => "img-responsive", "id" => "hero-image-3", "srcset" => wp_get_attachment_image_srcset($image_3, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_4, $size, "", array( "class" => "img-responsive", "id" => "hero-image-4", "srcset" => wp_get_attachment_image_srcset($image_4, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "img-responsive", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "img-responsive", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "img-responsive", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium') ) ); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 <img
