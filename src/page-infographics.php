@@ -28,10 +28,10 @@ get_header();
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
-                        var_dump($image_1['sizes']);
+                        var_dump($image_1);
                         ?>
                         <div id="hero">
-                            <?php echo wp_calculate_image_srcset( $image_1['sizes'], $image_1['url'], '', $image_1['ID'] ); ?>
+                            <?php var_dump( wp_calculate_image_srcset( $image_1['sizes'], $image_1['url'], '', $image_1['ID'] ) ); ?>
                             <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
                             <img src="<?php echo $image_1['url']; ?>" alt="<?php echo esc_attr( $image_1['alt'] ); ?>" />
                             
