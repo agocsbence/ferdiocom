@@ -48,20 +48,17 @@ get_header();
             <div class="grid w-container">
                 <div id="w-node-b95fd4ca9ef4-960139e3">
                     <h1 class="small">The power of infographics</h1>
-                    <p>
-                        Infographics have become one of the most powerful way of communicating visually in recent years.Using visual tools like charts, illustrations and diagrams you communication that is easier to understand,
-                        more memorable and more engaging.
-                    </p>
+                    <p>Infographics have become one of the most powerful way of communicating visually in recent years.Using visual tools like charts, illustrations and diagrams you communication that is easier to understand, more memorable and more engaging.</p>
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section infographics-copy">
             <div class="grid sticky w-container">
                 <div id="w-node-6dc5638083ef-960139e3">
                     <h1 class="small">Infographics for every channel</h1>
                     <p>Infographics are not restricted for any specific channel, style nor content type. We create infographics for every context and make sure they exploit the restrictions and possibilities of each channel.</p>
                 </div>
-                <div id="w-node-6a88497a89e5-960139e3" class="flex no-wrap">
+                <div id="icons-1" class="flex no-wrap">
                     <div>
                         <img
                             src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media.png"
@@ -89,7 +86,7 @@ get_header();
                         <h4 class="bold-center">Presentations</h4>
                     </div>
                 </div>
-                <div id="w-node-0ba15c19078c-960139e3" class="flex no-wrap">
+                <div id="icons-2" class="flex no-wrap">
                     <div>
                         <img
                             src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive.png"
