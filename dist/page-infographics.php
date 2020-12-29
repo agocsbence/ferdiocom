@@ -21,8 +21,6 @@ get_header();
 
                 <?php if( have_rows('hero_images') ): ?>
                     <?php while( have_rows('hero_images') ): the_row(); 
-
-                        // Get sub field values.
                         $image_1 = get_sub_field('image_1');
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
@@ -30,8 +28,7 @@ get_header();
                         $image_5 = get_sub_field('image_5');
                         $image_6 = get_sub_field('image_6');
                         $image_7 = get_sub_field('image_7');
-                        $size = 'full'; // (thumbnail, medium, large, full or custom size)
-                        ?>
+                        $size = 'full'; // (thumbnail, medium, large, full or custom size) ?>
                         <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium') ) ); ?>
                         <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium') ) ); ?>
                         <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium') ) ); ?>
@@ -41,35 +38,6 @@ get_header();
                         <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
-                <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2.png"
-                    width="1243"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-500.png   500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-800.png   800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-1080.png 1080w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-1600.png 1600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-2000.png 2000w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-2600.png 2600w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2-p-3200.png 3200w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2.png        3400w
-                    "
-                    sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-e392452b7b52-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater-p-500.png 500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater.png       770w
-                    "
-                    sizes="(max-width: 479px) 10.4666748046875px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-7ae2edcce721-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
                 <div id="w-node-b38d74e414ce-960139e3" class="hero-text info">
                     <h1>Explain it with infographics</h1>
                     <h2 class="margin-bottom-0">Make your content memorable, beautiful and effective.<br /></h2>
