@@ -61,16 +61,16 @@ get_header();
                 <div id="icons-1" class="flex no-wrap">
                     <div>
                         <img
-                            src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media.png"
+                            src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive.png"
                             srcset="
-                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media-p-500.png 500w,
-                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media.png       600w
+                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive-p-500.png 500w,
+                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive.png       600w
                             "
-                            sizes="(max-width: 479px) 41.33332824707031px, (max-width: 767px) 41.333343505859375px, (max-width: 991px) 5vw, 4vw"
+                            sizes="(max-width: 479px) 76.01666259765625px, (max-width: 767px) 76.01667785644531px, (max-width: 991px) 10vw, 8vw"
                             alt=""
                             class="image"
                         />
-                        <h4 class="bold-center">Social media</h4>
+                        <h4 class="bold-center">Websites</h4>
                     </div>
                     <div>
                         <img
@@ -89,19 +89,6 @@ get_header();
                 <div id="icons-2" class="flex no-wrap">
                     <div>
                         <img
-                            src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive.png"
-                            srcset="
-                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive-p-500.png 500w,
-                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19185ca3871d34d1896ea_interactive.png       600w
-                            "
-                            sizes="(max-width: 479px) 76.01666259765625px, (max-width: 767px) 76.01667785644531px, (max-width: 991px) 10vw, 8vw"
-                            alt=""
-                            class="image"
-                        />
-                        <h4 class="bold-center">Interactive</h4>
-                    </div>
-                    <div>
-                        <img
                             src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19186083f4b1245a1d03c_print.png"
                             srcset="
                                 https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db19186083f4b1245a1d03c_print-p-500.png 500w,
@@ -111,7 +98,20 @@ get_header();
                             alt=""
                             class="image"
                         />
-                        <h4 class="bold-center">Print</h4>
+                        <h4 class="bold-center">Publications</h4>
+                    </div>
+                    <div>
+                        <img
+                            src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media.png"
+                            srcset="
+                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media-p-500.png 500w,
+                                https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db1918671caa2e81dcdb900_social-media.png       600w
+                            "
+                            sizes="(max-width: 479px) 41.33332824707031px, (max-width: 767px) 41.333343505859375px, (max-width: 991px) 5vw, 4vw"
+                            alt=""
+                            class="image"
+                        />
+                        <h4 class="bold-center">Social media</h4>
                     </div>
                 </div>
             </div>
