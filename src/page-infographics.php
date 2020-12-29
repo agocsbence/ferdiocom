@@ -21,7 +21,7 @@ get_header();
             <h2>hello</h2>
                 <?php 
                 $hero_images = get_field('hero_images');
-                var_dump($hero_images);
+                // var_dump($hero_images);
                 $image_1 = get_sub_field('image_1');
                 var_dump($image_1);
                 $image_2 = get_sub_field('image_2');
