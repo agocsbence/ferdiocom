@@ -18,16 +18,18 @@ get_header();
         <div class="section hero">
             <div class="grid w-container"></div>
             <div data-w-id="409539a1-d839-57c9-2e34-fe68e6246938" class="grid infographics-hero">
+            <h2>hello</h2>
                 <?php 
                 $hero_images = get_field('hero_images');
-                $image_1 = get_field('image_1');
-                $image_2 = get_field('image_2');
-                $image_3 = get_field('image_3');
+                $image_1 = get_sub_field('image_1');
+                $image_2 = get_sub_field('image_2');
+                $image_3 = get_sub_field('image_3');
                 $size = 'medium'; // (thumbnail, medium, large, full or custom size)
 
                 if ($hero_images) : 
                     if( $image_1 ) {
                         echo wp_get_attachment_image( $image_1, $size );
+                        var_dump($image_1);
                     }
                 endif
                 ?>
