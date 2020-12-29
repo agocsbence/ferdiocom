@@ -31,17 +31,6 @@ get_header();
                     class="infographics-hero-img"
                 />
                 <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6b1199342622bd8f68354_concept%20sketches%202-01.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6b1199342622bd8f68354_concept%20sketches%202-01-p-500.png  500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6b1199342622bd8f68354_concept%20sketches%202-01.png       1754w
-                    "
-                    sizes="(max-width: 479px) 10.4666748046875px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-4b0d1c05008f-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
                     src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2.png"
                     width="1243"
                     srcset="
@@ -104,18 +93,6 @@ get_header();
                     class="infographics-hero-img"
                 />
                 <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69ed1aa0dd204e1b6415b_Ferdio%20112.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69ed1aa0dd204e1b6415b_Ferdio%20112-p-500.png 500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69ed1aa0dd204e1b6415b_Ferdio%20112-p-800.png 800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69ed1aa0dd204e1b6415b_Ferdio%20112.png       970w
-                    "
-                    sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-cde79df71777-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
                     src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater.png"
                     srcset="
                         https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a715fd81dd7727f3a36f_Kulhydrater-p-500.png 500w,
@@ -123,18 +100,6 @@ get_header();
                     "
                     sizes="(max-width: 479px) 10.4666748046875px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
                     id="w-node-7ae2edcce721-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a7a8ed1853400d9e1820_07_DataVizCards_img3.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a7a8ed1853400d9e1820_07_DataVizCards_img3-p-500.png 500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a7a8ed1853400d9e1820_07_DataVizCards_img3-p-800.png 800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd6a7a8ed1853400d9e1820_07_DataVizCards_img3.png       990w
-                    "
-                    sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-615d153d779d-960139e3"
                     alt=""
                     class="infographics-hero-img"
                 />

@@ -58,3 +58,6 @@ function register_footer_menu() {
     register_nav_menu('footer-menu',__( 'Footer Menu', 'ferdio' ));
 }
 add_action( 'init', 'register_footer_menu' );
+
+//IMAGE LAZY LOAD - low quality iamge placeholder
+define( 'EWWW_IMAGE_OPTIMIZER_USE_LQIP', true );
