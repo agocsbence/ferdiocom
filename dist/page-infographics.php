@@ -42,18 +42,6 @@ get_header();
                     <?php endwhile; ?>
                 <?php endif; ?>
                 <img
-                    src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69f57fd81dd447ff3580f_SoMe_FBPost_1080x1080.png"
-                    srcset="
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69f57fd81dd447ff3580f_SoMe_FBPost_1080x1080-p-500.png  500w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69f57fd81dd447ff3580f_SoMe_FBPost_1080x1080-p-800.png  800w,
-                        https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69f57fd81dd447ff3580f_SoMe_FBPost_1080x1080.png       1080w
-                    "
-                    sizes="(max-width: 479px) 10.466659545898438px, (max-width: 767px) 1vw, (max-width: 991px) 2vw, 4vw"
-                    id="w-node-06864801f9b6-960139e3"
-                    alt=""
-                    class="infographics-hero-img"
-                />
-                <img
                     src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dd69d2eaa0dd2b087b63856_4%20Energikilder2.png"
                     width="1243"
                     srcset="
