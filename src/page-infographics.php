@@ -20,7 +20,7 @@ get_header();
             <div data-w-id="409539a1-d839-57c9-2e34-fe68e6246938" class="grid infographics-hero">
             <h2>hello</h2>
                 <?php 
-                $hero_images = get_field('hero_images');
+                // $hero_images = get_field('hero_images');
                 // var_dump($hero_images);
                 $image_1 = get_field('image_1');
                 var_dump($image_1);
