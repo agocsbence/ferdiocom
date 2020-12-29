@@ -44,7 +44,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="section _0-top _0-bottom">
+        <div class="section _0-top _0-bottom _250-top">
             <div class="grid w-container">
                 <div id="w-node-b95fd4ca9ef4-960139e3">
                     <h1 class="small">The power of infographics</h1>
