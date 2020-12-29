@@ -28,6 +28,7 @@ get_header();
                         $image_2 = get_sub_field('image_2');
                         $image_3 = get_sub_field('image_3');
                         $size = 'medium'; // (thumbnail, medium, large, full or custom size)
+                        var_dump($image_1);
                         ?>
                         <div id="hero">
                             <?php echo wp_get_attachment_image( $image_1['ID'], $size ); ?>
