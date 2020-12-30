@@ -47,16 +47,16 @@ get_header();
         <div class="section _0-top _0-bottom _250-top">
             <div class="grid w-container">
                 <div id="w-node-b95fd4ca9ef4-960139e3">
-                    <h1 class="small">The power of infographics</h1>
-                    <p>Infographics have become one of the most powerful way of communicating visually in recent years.Using visual tools like charts, illustrations and diagrams you communication that is easier to understand, more memorable and more engaging.</p>
+                    <h1 class="small">Turn your story into engaging visuals</h1>
+                    <p>Infographics can explain and communicate information, data and knowledge visually. By using visual tools like charts, illustrations and diagrams you communication that is easier to understand, more memorable and more engaging.</p>
                 </div>
             </div>
         </div>
         <div class="section infographics-copy">
             <div class="grid sticky w-container">
                 <div id="w-node-6dc5638083ef-960139e3">
-                    <h1 class="small">Infographics for every channel</h1>
-                    <p>Infographics are not restricted for any specific channel, style nor content type. We create infographics for every context and make sure they exploit the restrictions and possibilities of each channel.</p>
+                    <h1 class="small">Visual stories for all channels</h1>
+                    <p>We produce visual content for all formats and make sure the visual stories exploit the different channels restrictions and possibilities.</p>
                 </div>
                 <div id="icons-1" class="flex no-wrap">
                     <div>
@@ -119,15 +119,9 @@ get_header();
         <div class="section">
             <div class="grid _70-gap w-container">
                 <div id="w-node-3c08ab07dcb2-960139e3">
-                    <h1 class="small">Your infographic specialist</h1>
-                    <p>
-                        That&#x27;s what makes us stand out from the crowd. We&#x27;ve worked with thousands of infographics and more than 100 clients in a wide range of industries. We know what it takes to create infographics
-                        with impact.<br />
-                    </p>
-                    <p>
-                        Great infographics are not only about solid design craftmanship and aesthetics. We also aim to make powerful and effective visual communication applying our unique competencies of creativity, insight and
-                        experience throughout all of our work.<br />
-                    </p>
+                    <h1 class="small">Work with information experts</h1>
+                    <p>Work with an agency who are driven by the information and the story. We do not get lost in cool visual effects and style but always aim to make effective communication that works.</p>
+                    <p>With 5+ years of expertise and more than 100+ animation projects you will get a experienced and professional partner in ferdio.</p>
                 </div>
                 <div id="w-node-9f06392fa102-960139e3">
                     <div class="w-dyn-list">
@@ -260,76 +254,10 @@ get_header();
             </div>
         </div>
     </div>
-    <div data-w-id="66ab8d6b-2327-3ea6-f4ab-2a8cb55ea66f" class="section circle contact">
-        <div class="w-layout-grid grid-chat">
-            <div id="w-node-2a8cb55ea671-b55ea66f" class="background-wrapper justify-center"><div data-react-id="chat" data-react-type="shape" data-react-bottom="false" class="background circle"></div></div>
-            <div data-react-id="chat" data-react-type="trigger-target" data-react-center="true" id="w-node-2a8cb55ea673-b55ea66f" class="chat-wrapper">
-                <div data-animation="true" id="w-node-861476cb9fdc-b55ea66f" class="cms-animation chat-animation _16-9 w-dyn-list">
-                    <div role="list" class="w-dyn-items">
-                        <div role="listitem" class="w-dyn-item">
-                            <div class="w-embed">
-                                <img
-                                    src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png"
-                                    alt=""
-                                    class="animation hidden"
-                                    sizes="100vw"
-                                    data-animation-part="start"
-                                    data-frame-rate=""
-                                    data-delay="2"
-                                    data-number-frames=""
-                                    data-srcset="
-                                        https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 500w,
-                                        https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 800w,
-                                        https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 1080w,
-                                        https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 1080w"
-                                />
 
-                                <div
-                                    data-src=""
-                                    class="animation hidden"
-                                    style="width: 0; height: 0; pointer-events: none;"
-                                    sizes="100vw"
-                                    data-animation-part="loop"
-                                    data-srcset="
-                                        500w,
-                                        800w,
-                                        1080w,
-                                        1080w"
-                                ></div>
+    <?php include get_theme_file_path( '/includes/chat-infographics.php' ); ?>	
 
-                                <div
-                                    data-src=""
-                                    class="animation hidden"
-                                    style="width: 0; height: 0; pointer-events: none;"
-                                    sizes="100vw"
-                                    data-animation-part="hover"
-                                    data-number-frames=""
-                                    data-srcset="
-                                        500w,
-                                        800w,
-                                        1080w,
-                                        1080w"  
-                                ></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="w-node-09ae3ca03263-b55ea66f" class="chat-avatar"><img src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5dbaa4b846957168ffb8b084_ferdio-avatar.jpg" alt="" /></div>
-                <div id="w-node-f68b61013def-b55ea66f" class="chat-message">
-                    <div class="before-spinner"><strong>ferdio</strong></div>
-                    <div class="before-spinner">Hey there 👋 How can we help?</div>
-                    <div class="chat-corner"></div>
-                </div>
-                <div id="w-node-2ba987dafd5d-b55ea66f" class="w-embed">
-                    <form id="chat-reply" class="chat-reply">
-                        <textarea class="chat-reply-input" placeholder="Write a reply..."></textarea>
-                        <div class="chat-reply-size"></div>
-                    </form>
-                </div>
-            </div>
-            <h1 id="w-node-2a8cb55ea676-b55ea66f" class="margin-bottom-0">Let&#x27;s get in touch!</h1>
-        </div>
-    </div>
+
 </div>
 
 <?php
