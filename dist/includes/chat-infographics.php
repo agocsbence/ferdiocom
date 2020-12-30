@@ -55,8 +55,9 @@
             <div id="w-node-09ae3ca03263-b55ea66f" class="chat-avatar"><img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db83a777958bf6009dc464c_Birger-Profile.jpg" alt="" /></div>
             <div id="w-node-f68b61013def-b55ea66f" class="chat-message">
                 <div class="before-spinner">
-                    <p><strong>Birger</strong> from Ferdio</p>
-                    <p>Do you have a good story, a clear message and some data to support it? We’ll help you tell that story in the most convincing and memorable way ⚡️</p>
+                    <strong>Birger</strong> from Ferdio
+                    <br>
+                    Do you have a good story, a clear message and some data to support it? We’ll help you tell that story in the most convincing and memorable way ⚡️
                 </div>
                 <div class="chat-corner"></div>
             </div>
