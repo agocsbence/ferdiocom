@@ -273,6 +273,18 @@
 				});
 			</script>
 
+		<?php } else if ( is_page_template('page-infographics.php') ) { ?>
+			<script>
+				document.addEventListener('mousemove', parallax);
+				function parallax(e) {
+					this.querySelectorAll('.infographics-hero-img').forEach(image => {
+						const speed = image.getAttribute('data-speed');
+						const x = (window.innerWidth - e.pageX * speed)/100;
+						const y = (window.innerHeight - e.pageY * speed)/100;
+						image.style.transform = `translateX(${x}px) translateY(${y}px)`;
+					})
+				}
+			</script>
 		<?php } ?>
 
         <?php wp_footer(); ?>

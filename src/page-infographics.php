@@ -29,13 +29,13 @@ get_header();
                         $image_6 = get_sub_field('image_6');
                         $image_7 = get_sub_field('image_7');
                         $size = 'full'; // (thumbnail, medium, large, full or custom size) ?>
-                        <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_3, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-3", "srcset" => wp_get_attachment_image_srcset($image_3, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_4, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-4", "srcset" => wp_get_attachment_image_srcset($image_4, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium') ) ); ?>
-                        <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium') ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_7, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-7", "srcset" => wp_get_attachment_image_srcset($image_7, 'medium'), "data-speed" => "7" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_5, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-5", "srcset" => wp_get_attachment_image_srcset($image_5, 'medium'), "data-speed" => "5" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_6, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-6", "srcset" => wp_get_attachment_image_srcset($image_6, 'medium'), "data-speed" => "3" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_3, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-3", "srcset" => wp_get_attachment_image_srcset($image_3, 'medium'), "data-speed" => "4" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_4, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-4", "srcset" => wp_get_attachment_image_srcset($image_4, 'medium'), "data-speed" => "2" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_1, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-1", "srcset" => wp_get_attachment_image_srcset($image_1, 'medium'), "data-speed" => "1" ) ); ?>
+                        <?php echo wp_get_attachment_image( $image_2, $size, "", array( "class" => "infographics-hero-img", "id" => "hero-image-2", "srcset" => wp_get_attachment_image_srcset($image_2, 'medium'), "data-speed" => "10" ) ); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
                 <div id="w-node-b38d74e414ce-960139e3" class="hero-text info">
