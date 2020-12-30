@@ -1,16 +1,3 @@
-@mixin gridRow($rowStart, $rowEnd) {
-    -ms-grid-row-span: $rowEnd - $rowStart;
-    grid-row-end: $rowEnd;
-    -ms-grid-row: $rowStart;
-    grid-row-start: $rowStart;
-}
-@mixin gridCol($colStart, $colEnd) {
-    -ms-grid-column-span: $colEnd - $colStart;
-    grid-column-end: $colEnd;
-    -ms-grid-column: $colStart;
-    grid-column-start: $colStart;
-}
-
 .infographics-hero-img {
     height: auto;
 }
@@ -19,120 +6,52 @@
     #hero-image-1 {
         @include gridRow(8, 13);
         @include gridCol(9, 18);
-        // -ms-grid-column-span: 9;
-        // grid-column-end: 18;
-        // -ms-grid-column: 9;
-        // grid-column-start: 9;
-        // -ms-grid-row-span: 5;
-        // grid-row-end: 13;
-        // -ms-grid-row: 8;
-        // grid-row-start: 8;
     }
     #hero-image-2 {
-        -ms-grid-column-span: 7;
-        grid-column-end: 17;
-        -ms-grid-column: 10;
-        grid-column-start: 10;
-        -ms-grid-row-span: 4;
-        grid-row-end: 16;
-        -ms-grid-row: 12;
-        grid-row-start: 12;
+        @include gridCol(10, 17);
+        @include gridRow(12, 16);
     }
     #hero-image-3 {
-        -ms-grid-column-span: 6;
-        grid-column-end: 7;
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        -ms-grid-row-span: 4;
-        grid-row-end: 11;
-        -ms-grid-row: 7;
-        grid-row-start: 7;
+        @include gridCol(1, 7);
+        @include gridRow(7, 11);
         margin-left: -120px;
     }
     #hero-image-4 {
-        -ms-grid-column-span: 4;
-        grid-column-end: 5;
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        -ms-grid-row-span: 4;
-        grid-row-end: 16;
-        -ms-grid-row: 12;
-        grid-row-start: 12;
+        @include gridCol(1, 5);
+        @include gridRow(12, 16);
         margin-left: -50px;
     }
     #hero-image-5 {
-        -ms-grid-column-span: 7;
-        grid-column-end: 25;
-        -ms-grid-column: 18;
-        grid-column-start: 18;
-        -ms-grid-row-span: 4;
-        grid-row-end: 10;
-        -ms-grid-row: 6;
-        grid-row-start: 6;
+        @include gridCol(18, 25);
+        @include gridRow(6, 10);
         margin-left: 20px;
     }
     #hero-image-6 {
-        -ms-grid-column-span: 5;
-        grid-column-end: 25;
-        -ms-grid-column: 20;
-        grid-column-start: 20;
-        -ms-grid-row-span: 4;
-        grid-row-end: 14;
-        -ms-grid-row: 10;
-        grid-row-start: 10;
+        @include gridCol(20, 25);
+        @include gridRow(10, 14);
         margin-left: 120px;
     }
     #hero-image-7 {
-        -ms-grid-column-span: 6;
-        grid-column-end: 25;
-        -ms-grid-column: 19;
-        grid-column-start: 19;
-        -ms-grid-row-span: 5;
-        grid-row-end: 19;
-        -ms-grid-row: 14;
-        grid-row-start: 14;
+        @include gridCol(19, 25);
+        @include gridRow(14, 19);
     }
 }
 
 .infographics-copy {
     #icons-1 {
-        -ms-grid-column-span: 5;
-        grid-column-end: 7;
-        -ms-grid-column: 2;
-        grid-column-start: 2;
-        -ms-grid-row-span: 1;
-        grid-row-end: 2;
-        -ms-grid-row: 1;
-        grid-row-start: 1;
+        @include gridCol(2, 7);
+        @include gridRow(1, 2);
         @media screen and (max-width: $mobile) {
-            -ms-grid-row: 2;
-            grid-row-start: 2;
-            -ms-grid-row-span: 1;
-            grid-row-end: 3;
-            -ms-grid-column: 2;
-            grid-column-start: 2;
-            -ms-grid-column-span: 10;
-            grid-column-end: 12;
+            @include gridCol(2, 12);
+            @include gridRow(2, 3);
         }
     }
     #icons-2 {
-        -ms-grid-column-span: 5;
-        grid-column-end: 7;
-        -ms-grid-column: 2;
-        grid-column-start: 2;
-        -ms-grid-row-span: 1;
-        grid-row-end: 3;
-        -ms-grid-row: 2;
-        grid-row-start: 2;
+        @include gridCol(2, 7);
+        @include gridRow(2, 3);
         @media screen and (max-width: $mobile) {
-            -ms-grid-column: 2;
-            grid-column-start: 2;
-            -ms-grid-column-span: 10;
-            grid-column-end: 12;
-            -ms-grid-row: 3;
-            grid-row-start: 3;
-            -ms-grid-row-span: 1;
-            grid-row-end: 4;
+            @include gridCol(2, 12);
+            @include gridRow(3, 4);
         }
     }
     #icons-1,

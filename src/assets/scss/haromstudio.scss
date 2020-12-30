@@ -1,6 +1,19 @@
 $mobile:                    767px;
 $tablet:                    991px;
 
+@mixin gridRow($rowStart, $rowEnd) {
+    -ms-grid-row-span: $rowEnd - $rowStart;
+    grid-row-end: $rowEnd;
+    -ms-grid-row: $rowStart;
+    grid-row-start: $rowStart;
+}
+@mixin gridCol($colStart, $colEnd) {
+    -ms-grid-column-span: $colEnd - $colStart;
+    grid-column-end: $colEnd;
+    -ms-grid-column: $colStart;
+    grid-column-start: $colStart;
+}
+
 @import 'pages/infographics';
 
 .grid-chat {
