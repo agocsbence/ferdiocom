@@ -1,5 +1,8 @@
 @import 'pages/infographics';
 
+.grid-chat {
+    h1 { font-size: 52px; }
+}
 .chat-message {
     .before-spinner {
         &:first-child {
