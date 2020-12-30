@@ -3,6 +3,9 @@
 }
 
 .grid.infographics-hero {
+    @media screen and (max-width: $mobile) {
+        margin-top: 80px;
+    }
     #hero-image-1 {
         @include gridRow(8, 13);
         @include gridCol(9, 18);
