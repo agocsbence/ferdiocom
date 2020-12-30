@@ -61,3 +61,12 @@ add_action( 'init', 'register_footer_menu' );
 
 //IMAGE LAZY LOAD - low quality iamge placeholder
 define( 'EWWW_IMAGE_OPTIMIZER_USE_LQIP', true );
+
+//IMAGE SIZES
+add_action( 'after_setup_theme', 'imagesize_theme_setup' );
+function imagesize_theme_setup() {
+    add_image_size( 'ferdio-small', 500 );
+    add_image_size( 'ferdio-medium', 800 );
+    add_image_size( 'ferdio-large', 1080 );
+    add_image_size( 'ferdio-xtralarge', 2560 );
+}
