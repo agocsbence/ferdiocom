@@ -1,17 +1,32 @@
+@mixin gridRow($rowStart, $rowEnd) {
+    -ms-grid-row-span: calc($rowEnd - $rowStart);
+    grid-row-end: $rowEnd;
+    -ms-grid-row: $rowStart;
+    grid-row-start: $rowStart;
+}
+@mixin gridCol($colStart, $colEnd) {
+    -ms-grid-column-span: calc($colEnd - $colStart);
+    grid-column-end: $colEnd;
+    -ms-grid-column: $colStart;
+    grid-column-start: $colStart;
+}
+
 .infographics-hero-img {
     height: auto;
 }
 
 .grid.infographics-hero {
     #hero-image-1 {
-        -ms-grid-column-span: 9;
-        grid-column-end: 18;
-        -ms-grid-column: 9;
-        grid-column-start: 9;
-        -ms-grid-row-span: 5;
-        grid-row-end: 13;
-        -ms-grid-row: 8;
-        grid-row-start: 8;
+        @include gridRow(8, 13);
+        @include gridCol(9, 18);
+        // -ms-grid-column-span: 9;
+        // grid-column-end: 18;
+        // -ms-grid-column: 9;
+        // grid-column-start: 9;
+        // -ms-grid-row-span: 5;
+        // grid-row-end: 13;
+        // -ms-grid-row: 8;
+        // grid-row-start: 8;
     }
     #hero-image-2 {
         -ms-grid-column-span: 7;
@@ -89,6 +104,16 @@
         grid-row-end: 2;
         -ms-grid-row: 1;
         grid-row-start: 1;
+        @media screen and (max-width: $mobile) {
+            -ms-grid-row: 2;
+            grid-row-start: 2;
+            -ms-grid-row-span: 1;
+            grid-row-end: 3;
+            -ms-grid-column: 2;
+            grid-column-start: 2;
+            -ms-grid-column-span: 10;
+            grid-column-end: 12;
+        }
     }
     #icons-2 {
         -ms-grid-column-span: 5;
@@ -99,6 +124,16 @@
         grid-row-end: 3;
         -ms-grid-row: 2;
         grid-row-start: 2;
+        @media screen and (max-width: $mobile) {
+            -ms-grid-column: 2;
+            grid-column-start: 2;
+            -ms-grid-column-span: 10;
+            grid-column-end: 12;
+            -ms-grid-row: 3;
+            grid-row-start: 3;
+            -ms-grid-row-span: 1;
+            grid-row-end: 4;
+        }
     }
     #icons-1,
     #icons-2 {
