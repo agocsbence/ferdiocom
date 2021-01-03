@@ -65,7 +65,7 @@ get_header();
                     />
                     <iframe
                         class="video showreel player"
-                        src="https://player.vimeo.com/video/339513508?autoplay=0&amp;loop=1&amp;autopause=0&amp;muted=0&amp;background=1"
+                        src="https://player.vimeo.com/video/339513508?autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=0&amp;background=1"
                         frameborder="0"
                         webkitallowfullscreen=""
                         mozallowfullscreen=""
