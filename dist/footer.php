@@ -285,35 +285,33 @@
 				}
 			</script>
 		<?php } else if ( is_page_template('page-animation.php') ) { ?>
-			<?php echo 'animaton page detected'; ?>
-		<?php } ?>
+			<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+			<script>
+				var vimeo_iframe = $('#vimeo_player')[0];
+				var player = $f(vimeo_iframe);
+				var muteBtn = document.querySelector('.hero-video-button');
+				var btnText = document.querySelector('.button-text');
+				var btnIcon = document.querySelector('.icon-image');
 
-		<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-		<script>
-			var vimeo_iframe = $('#vimeo_player')[0];
-			var player = $f(vimeo_iframe);
-			var muteBtn = document.querySelector('.hero-video-button');
-			var btnText = document.querySelector('.button-text');
-			var btnIcon = document.querySelector('.icon-image');
-
-			player.addEvent('ready', function() {
-				player.api('setVolume', 0);
-			});
-
-			muteBtn.addEventListener('click', function(e) {
-				if( muteBtn.classList.contains('muted') ) {
-					btnText.innerHTML = 'off';
-					player.api('setVolume', 1);
-					muteBtn.classList.remove('muted');
-					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
-				} else {
-					muteBtn.classList.add('muted');
-					btnText.innerHTML = 'on'
+				player.addEvent('ready', function() {
 					player.api('setVolume', 0);
-					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
-				}
-			});
-		</script>
+				});
+
+				muteBtn.addEventListener('click', function(e) {
+					if( muteBtn.classList.contains('muted') ) {
+						btnText.innerHTML = 'off';
+						player.api('setVolume', 1);
+						muteBtn.classList.remove('muted');
+						btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
+					} else {
+						muteBtn.classList.add('muted');
+						btnText.innerHTML = 'on'
+						player.api('setVolume', 0);
+						btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
+					}
+				});
+			</script>
+		<?php } ?>
 
         <?php wp_footer(); ?>
 	</body>
