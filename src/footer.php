@@ -146,7 +146,6 @@
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		<!-- GitHub-hosted JS -->
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
-		<script src="<?php bloginfo('template_url') ?>/assets/js/videos.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/home-hero.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/menu-color.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/case-hero.js"></script>
