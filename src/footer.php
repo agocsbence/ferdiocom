@@ -291,11 +291,11 @@
 				var player = $f(vimeo_iframe);
 				var muteBtn = $('.hero-video-button');
 
-				console.log(vimeo_iframe);
+				console.log(muteBtn);
 
-				muteBtn.addEvent('click', function() {
-					console.log('button clicked');
-				});
+				// muteBtn.addEvent('click', function() {
+				// 	console.log('button clicked');
+				// });
 
 				player.addEvent('ready', function() {
 					player.api('setVolume', 0);
