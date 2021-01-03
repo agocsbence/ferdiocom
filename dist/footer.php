@@ -304,6 +304,7 @@
 			});
 
 			muteBtn.click( function() {
+				console.log('mizu');
 				btnText.innerHTML = 'on'
 				player.api('setVolume', 1);
 			});
