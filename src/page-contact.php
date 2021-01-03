@@ -103,7 +103,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355661" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355661" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -127,7 +127,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355861" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355861" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -142,7 +142,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                             <div class="team-thumbnail-wrapper">
                                 <img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db83a591c7c3b489d355165_Klaudia-Profile.jpg" alt="" class="team-thumbnail" />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355718" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355718" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -166,7 +166,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355810" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355810" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -190,7 +190,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355757" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355757" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -214,7 +214,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="369355626" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="369355626" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -238,7 +238,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                                     class="team-thumbnail"
                                 />
                                 <div class="thumbnail video w-embed">
-                                    <div class="thumbnail" data-vimeo-id="456907698" data-vimeo-autoplay="false" data-vimeo-loop="true" data-vimeo-playonhover="true" data-vimeo-muted="true" data-vimeo-background="true"></div>
+                                    <div class="thumbnail" data-vimeo-id="456907698" data-vimeo-autoplay="true" data-vimeo-loop="true" data-vimeo-playonhover="false" data-vimeo-muted="true" data-vimeo-background="true"></div>
                                 </div>
                             </div>
                             <div id="w-node-9d84304158cf-ff0139e0" class="flex entry-text vertical">
@@ -258,215 +258,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                 <div role="list" class="w-dyn-items">
                     <div role="listitem" class="w-dyn-item">
                         <div class="map-wrapper w-embed w-script">
-                            <div id="map" style="width: 100%; height: 100%;"></div>
-                            <script>
-                                // Initialize and add the map
-                                function initMap() {
-                                    // The location of Uluru
-                                    var location = { lat: 55.66775, lng: 12.55591 };
-                                    // The map, centered at Uluru
-                                    var map = new google.maps.Map(document.getElementById("map"), {
-                                        zoom: 15,
-                                        center: location,
-                                        disableDefaultUI: true,
-                                        styles: [
-                                            {
-                                                featureType: "all",
-                                                elementType: "geometry",
-                                                stylers: [
-                                                    {
-                                                        visibility: "simplified",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "all",
-                                                elementType: "geometry.stroke",
-                                                stylers: [
-                                                    {
-                                                        color: "#eaecf2",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "all",
-                                                elementType: "labels.text.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#9398a7",
-                                                    },
-                                                    {
-                                                        gamma: "1.00",
-                                                    },
-                                                    {
-                                                        saturation: "0",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "administrative",
-                                                elementType: "labels.icon",
-                                                stylers: [
-                                                    {
-                                                        color: "#9398a7",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "landscape",
-                                                elementType: "geometry.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#f7f8fa",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "poi",
-                                                elementType: "all",
-                                                stylers: [
-                                                    {
-                                                        visibility: "on",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "poi",
-                                                elementType: "geometry.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#eaecf2",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "poi",
-                                                elementType: "labels.icon",
-                                                stylers: [
-                                                    {
-                                                        color: "#9398a7",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "poi.business",
-                                                elementType: "all",
-                                                stylers: [
-                                                    {
-                                                        visibility: "off",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "road",
-                                                elementType: "geometry",
-                                                stylers: [
-                                                    {
-                                                        color: "#fffffe",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "road",
-                                                elementType: "labels.text.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#bec1ca",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "road",
-                                                elementType: "labels.icon",
-                                                stylers: [
-                                                    {
-                                                        visibility: "off",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "road.highway",
-                                                elementType: "labels.icon",
-                                                stylers: [
-                                                    {
-                                                        visibility: "off",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "transit",
-                                                elementType: "geometry.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#eaecf2",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "transit",
-                                                elementType: "labels.icon",
-                                                stylers: [
-                                                    {
-                                                        saturation: "-85",
-                                                    },
-                                                    {
-                                                        lightness: "0",
-                                                    },
-                                                    {
-                                                        gamma: "1.3",
-                                                    },
-                                                    {
-                                                        hue: "#9398a7",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "transit.line",
-                                                elementType: "geometry.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#eaecf2",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "transit.line",
-                                                elementType: "labels.text.stroke",
-                                                stylers: [
-                                                    {
-                                                        color: "#ffffff",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "water",
-                                                elementType: "geometry.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#d4d6dc",
-                                                    },
-                                                ],
-                                            },
-                                            {
-                                                featureType: "water",
-                                                elementType: "labels.text.fill",
-                                                stylers: [
-                                                    {
-                                                        color: "#9398a7",
-                                                    },
-                                                ],
-                                            },
-                                        ],
-                                    });
-                                    // The marker, positioned at Uluru
-                                    var marker = new google.maps.Marker({
-                                        position: location,
-                                        map: map,
-                                        icon: "https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5d7904ba33ee9588641d2c81_marker.svg",
-                                    });
-                                }
-                            </script>
-                            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8PcSo_zeJT8LoHle0fKLZOrut32Fn9uQ&callback=initMap"></script>
+                            <?php include get_theme_file_path( '/includes/contact-map.php' ); ?>
                         </div>
                     </div>
                 </div>
