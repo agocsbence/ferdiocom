@@ -291,14 +291,17 @@
 				var player = $f(vimeo_iframe);
 				var muteBtn = $('.hero-video-button');
 
-				console.log(muteBtn);
-
 				// muteBtn.addEvent('click', function() {
 				// 	console.log('button clicked');
 				// });
 
 				player.addEvent('ready', function() {
 					player.api('setVolume', 0);
+				});
+
+				muteBtn.click( function() {
+					muteBtn.children[0].children[2].childNodes[2].textContent = 'on';
+					player.api('setVolume', 1);
 				});
 			});
 			</script>
