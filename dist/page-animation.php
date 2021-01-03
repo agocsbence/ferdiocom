@@ -73,7 +73,8 @@ get_header();
                         allow="autoplay"
                         data-ready="true"
                     ></iframe> -->
-                    <!-- <iframe
+                    <iframe
+                        class="video showreel player"
                         id="vimeo_player"
                         src="//player.vimeo.com/video/339513508?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffff&autopause=0&muted=0&background=1"
                         frameborder="0"
@@ -82,22 +83,7 @@ get_header();
                         allowfullscreen
                         allow="autoplay"
                         data-ready="true"
-                    ></iframe> -->
-                    <iframe src="https://player.vimeo.com/video/339513508" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-                    <script src="https://player.vimeo.com/api/player.js"></script>
-                    <script>
-                    var iframe = document.querySelector('iframe');
-                    var player = new Vimeo.Player(iframe);
-
-                    player.on('play', function() {
-                        console.log('Played the video');
-                    });
-
-                    player.getVideoTitle().then(function(title) {
-                        console.log('title:', title);
-                    });
-                    </script>
+                    ></iframe>
                 </div>
             </div>
         </div>
