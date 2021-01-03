@@ -303,7 +303,7 @@
 				player.api('setVolume', 0);
 			});
 
-			muteBtn.click( function() {
+			muteBtn.on('click', function() {
 				console.log('mizu');
 				btnText.innerHTML = 'on'
 				player.api('setVolume', 1);
