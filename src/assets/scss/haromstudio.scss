@@ -1,6 +1,9 @@
 $mobile:                    767px;
 $tablet:                    991px;
 
+$grey-light:                #31458405;
+$blue:                      #283250;
+
 @mixin gridRow($rowStart, $rowEnd) {
     -ms-grid-row-span: $rowEnd - $rowStart;
     grid-row-end: $rowEnd;
@@ -15,6 +18,8 @@ $tablet:                    991px;
 }
 
 @import 'pages/infographics';
+@import 'pages/animation';
+@import 'components/button';
 
 .grid-chat {
     h1 { font-size: 52px; }
@@ -26,3 +31,4 @@ $tablet:                    991px;
         }
     }
 }
+

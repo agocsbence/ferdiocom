@@ -1,49 +1,32 @@
-.button {
-    margin-right: 0;
-    margin-bottom: 3px;
-    padding: 0 38px 0 0;
-    -webkit-transition: opacity 150ms ease-in-out,
-                        background-color 150ms ease-in-out,
-                        color 150ms ease-in-out;
-    transition: opacity 150ms ease-in-out,
-                background-color 150ms ease-in-out,
-                color 150ms ease-in-out;
-    font-family: stevie-sans,sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $red;
-    background-color: transparent;
+.flex.mute-button {
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: width 150ms ease-in-out, all 150ms ease-in-out;
+    transition: width 150ms ease-in-out, all 150ms ease-in-out;
 }
-.button .button-arrow, .entry-arrow {
-    display: inline-block;
-    height: 8px;
+.button.icon-button.no-arrow.mute-button {
+    padding-right: 20px;
+    padding-left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+.icon.mute-button,
+.team-thumbnail {
     position: relative;
-    width: 0;
-    color: $red;
-    transition: opacity 150ms ease-in-out;
-    &:before {
-        content: "";
-        left: 10px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 23px;
-        border-bottom: 1px solid currentcolor;
-        transition: width 150ms ease-in-out;
-    }
-    &:after {
-        content: "";
-        display: block;
-        height: 5px;
-        position: absolute;
-        right: -10px;
-        top: 50%;
-        transform: translate(23px, -50%) rotate(45deg);
-        width: 5px;
-        border-right: 1px solid currentcolor;
-        border-top: 1px solid currentcolor;
-        transition: transform 150ms ease-in-out;
-    }
+    overflow: hidden;
+}
+.icon.mute-button {
+    width: 100%;
+    -webkit-transition: width 150ms cubic-bezier(0.18, 0.89, 0.31, 1.06);
+    transition: width 150ms cubic-bezier(0.18, 0.89, 0.31, 1.06);
+    background: $grey-light;
+    color: $blue;
+}
+.icon.mute-button.compressed {
+    width: 60px;
+}
+.icon-image.mute-button {
+    width: 24px;
+    height: 24px;
+    margin-left: 21px;
 }
