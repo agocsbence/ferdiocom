@@ -301,7 +301,7 @@
 
 			muteBtn.addEventListener('click', function(e) {
 				if( muteBtn.classList.contains('muted') ) {
-					btnText.innerHTML = 'on'
+					btnText.innerHTML = 'on';
 					player.api('setVolume', 1);
 					muteBtn.classList.remove('muted');
 				} else {
