@@ -305,12 +305,12 @@
 					btnText.innerHTML = 'off';
 					player.api('setVolume', 1);
 					muteBtn.classList.remove('muted');
-					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
+					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
 				} else {
 					muteBtn.classList.add('muted');
 					btnText.innerHTML = 'on'
 					player.api('setVolume', 0);
-					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
+					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
 				}
 			});
 		</script>
