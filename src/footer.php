@@ -285,7 +285,7 @@
 				}
 			</script>
 		<?php } else if ( is_page_template('page-animation.php') ) { ?>
-			
+			<?php echo 'animaton page detected'; ?>
 		<?php } ?>
 
 		<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
