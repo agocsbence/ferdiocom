@@ -290,7 +290,6 @@
 
 		<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 		<script>
-		$(function() {
 			var vimeo_iframe = $('#vimeo_player')[0];
 			var player = $f(vimeo_iframe);
 			var muteBtn = document.querySelector('.hero-video-button');
@@ -308,7 +307,6 @@
 				btnText.innerHTML = 'on'
 				player.api('setVolume', 1);
 			});
-		});
 		</script>
 
         <?php wp_footer(); ?>
