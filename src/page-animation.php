@@ -32,7 +32,7 @@ get_header();
                         <img src="<?php bloginfo('template_url') ?>/assets/img/mute.png" alt="" class="icon-image mute-button" sizes="100vw">
                         <div class="button icon-button no-arrow mute-button">
                             Sound<br />
-                            off
+                            <span class="button-text">off</span>
                         </div>
                     </div>
                 </div>

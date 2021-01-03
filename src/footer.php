@@ -289,7 +289,8 @@
 			$(function() {
 				var vimeo_iframe = $('#vimeo_player')[0];
 				var player = $f(vimeo_iframe);
-				var muteBtn = $('.hero-video-button');
+				var muteBtn = document.querySelector('.hero-video-button');
+				var btnText = document.querySelector('.button-text');
 
 				// muteBtn.addEvent('click', function() {
 				// 	console.log('button clicked');
@@ -300,7 +301,7 @@
 				});
 
 				muteBtn.click( function() {
-					$('.hero-video-button').children[0].children[2].childNodes[2].textContent = 'on';
+					btnText.innerHTML = 'on'
 					player.api('setVolume', 1);
 				});
 			});
