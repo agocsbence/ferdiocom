@@ -75,7 +75,7 @@ get_header();
                     ></iframe> -->
                     <iframe
                         id="vimeo_player"
-                        src="//player.vimeo.com/video/339513508?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffffautopause=0&muted=0&background=1"
+                        src="//player.vimeo.com/video/339513508?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffff&autopause=0&muted=0&background=1"
                         frameborder="0"
                         webkitallowfullscreen
                         mozallowfullscreen
