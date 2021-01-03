@@ -295,18 +295,20 @@
 			var muteBtn = document.querySelector('.hero-video-button');
 			var btnText = document.querySelector('.button-text');
 
-			// muteBtn.addEvent('click', function() {
-			// 	console.log('button clicked');
-			// });
-
 			player.addEvent('ready', function() {
 				player.api('setVolume', 0);
 			});
 
 			muteBtn.addEventListener('click', function(e) {
-				console.log('mizu');
-				btnText.innerHTML = 'on'
-				player.api('setVolume', 1);
+				if( muteBtn.classList.contains('muted') ) {
+					btnText.innerHTML = 'on'
+					player.api('setVolume', 1);
+					muteBtn.classList.remove('muted');
+				} else {
+					muteBtn.classList.add('muted');
+					btnText.innerHTML = 'off'
+					player.api('setVolume', 0);
+				}
 			});
 		</script>
 
