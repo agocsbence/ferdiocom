@@ -294,6 +294,7 @@
 			var player = $f(vimeo_iframe);
 			var muteBtn = document.querySelector('.hero-video-button');
 			var btnText = document.querySelector('.button-text');
+			var btnIcon = document.querySelector('.icon-image');
 
 			player.addEvent('ready', function() {
 				player.api('setVolume', 0);
@@ -301,13 +302,15 @@
 
 			muteBtn.addEventListener('click', function(e) {
 				if( muteBtn.classList.contains('muted') ) {
-					btnText.innerHTML = 'on';
+					btnText.innerHTML = 'off';
 					player.api('setVolume', 1);
 					muteBtn.classList.remove('muted');
+					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
 				} else {
 					muteBtn.classList.add('muted');
-					btnText.innerHTML = 'off'
+					btnText.innerHTML = 'on'
 					player.api('setVolume', 0);
+					btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
 				}
 			});
 		</script>
