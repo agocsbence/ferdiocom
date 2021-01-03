@@ -296,11 +296,11 @@
 				// });
 
 				player.addEvent('ready', function() {
-					// player.api('setVolume', 0);
+					player.api('setVolume', 0);
 				});
 
 				muteBtn.click( function() {
-					muteBtn.children[0].children[2].childNodes[2].textContent = 'on';
+					$('.hero-video-button').children[0].children[2].childNodes[2].textContent = 'on';
 					player.api('setVolume', 1);
 				});
 			});
