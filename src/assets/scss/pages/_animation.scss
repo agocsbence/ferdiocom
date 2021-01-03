@@ -1,6 +1,10 @@
 .page-animation {
     .showreel {
-        margin-top: 0;
+        margin-bottom: 50px;
+        @media screen and (max-width: $mobile) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
 }
 .hero-video-button {
