@@ -39,7 +39,7 @@ get_header();
             </div>
             <div class="grid showreel">
                 <div id="w-node-4b92faaabed1-3d0139e4" class="player-wrapper">
-                    <div data-w-id="f5d5c174-75b8-5d49-1af0-a763d8db7cde" class="video showreel overlay" style="opacity: 0;">
+                    <!-- <div data-w-id="f5d5c174-75b8-5d49-1af0-a763d8db7cde" class="video showreel overlay" style="opacity: 0;">
                         <a href="#" class="flex play-button w-inline-block">
                             <div class="icon play-button">
                                 <img src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5db18f2a083f4bf97aa1c2cb_play.svg" alt="" class="icon-image play-button" sizes="100vw" />
@@ -49,7 +49,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                     <img
                         src="https://uploads-ssl.webflow.com/5d16087814f9117f026ad2e1/5d69118f452430697bc58fcb_Screenshot%202019-07-30%20at%2011.41.55.png"
                         srcset="
