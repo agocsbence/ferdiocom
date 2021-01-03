@@ -5,7 +5,7 @@
     transition: width 150ms ease-in-out, all 150ms ease-in-out;
 }
 .button.icon-button.no-arrow.mute-button {
-    padding-right: 20px;
+    padding-right: 4px;
     padding-left: 0;
     color: $blue;
     font-size: 12px;
@@ -25,7 +25,7 @@
     width: 60px;
 }
 .icon-image.mute-button {
-    width: 24px;
-    height: 24px;
+    width: auto;
+    height: auto;
     margin-left: 21px;
 }
