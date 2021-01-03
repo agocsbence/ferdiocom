@@ -70,7 +70,7 @@ get_header();
                         webkitallowfullscreen=""
                         mozallowfullscreen=""
                         allowfullscreen=""
-                        allow=""
+                        allow="autoplay"
                         data-ready="true"
                     ></iframe>
                 </div>
