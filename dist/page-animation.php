@@ -63,13 +63,23 @@ get_header();
                         alt=""
                         class="video poster"
                     />
-                    <iframe
+                    <!-- <iframe
                         class="video showreel player"
                         src="https://player.vimeo.com/video/339513508?autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=0&amp;background=1"
                         frameborder="0"
                         webkitallowfullscreen=""
                         mozallowfullscreen=""
                         allowfullscreen=""
+                        allow="autoplay"
+                        data-ready="true"
+                    ></iframe> -->
+                    <iframe
+                        id="vimeo_player"
+                        src="//player.vimeo.com/video/339513508?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffffautopause=0&muted=0&background=1"
+                        frameborder="0"
+                        webkitallowfullscreen
+                        mozallowfullscreen
+                        allowfullscreen
                         allow="autoplay"
                         data-ready="true"
                     ></iframe>

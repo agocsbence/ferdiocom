@@ -284,6 +284,18 @@
 					})
 				}
 			</script>
+		<?php } else if ( is_page_template('page-animation.php') ) { ?>
+			<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+			<script>
+			$(function() {
+				var vimeo_iframe = $('#vimeo_player')[0];
+				var player = $f(vimeo_iframe);
+
+				player.addEvent('ready', function() {
+					player.api('setVolume', 0);
+				});
+			});
+			</script>
 		<?php } ?>
 
         <?php wp_footer(); ?>

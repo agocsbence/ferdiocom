@@ -1,7 +1,20 @@
+.page-animation {
+    .showreel {
+        margin-top: 0;
+    }
+}
 .hero-video-button {
     @include gridRow(1, 2);
     @include gridCol(11, 13);
     align-self: end;
     padding-left: 40px;
     cursor: pointer;
+    @media screen and (max-width: $mobile) {
+        @include gridRow(2, 3);
+        @include gridCol(2, 5);
+        padding-left: 0;
+        .button {
+            display: none;
+        }
+    }
 }
