@@ -296,7 +296,7 @@
 				// });
 
 				player.addEvent('ready', function() {
-					player.api('setVolume', 0);
+					// player.api('setVolume', 0);
 				});
 
 				muteBtn.click( function() {
