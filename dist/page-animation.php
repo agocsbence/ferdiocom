@@ -27,7 +27,7 @@ get_header();
                     <h1>Explain it with animation</h1>
                     <h2 class="margin-bottom-0">Engaging, emotional, convincing, but most importantly: effective.<br /></h2>
                 </div>
-                <div class="hero-video-button mute-button">
+                <div class="hero-video-button mute-button muted">
                     <div class="icon mute-button">
                         <img src="<?php bloginfo('template_url') ?>/assets/img/mute.png" alt="" class="icon-image mute-button" sizes="100vw">
                         <div class="button icon-button no-arrow mute-button">

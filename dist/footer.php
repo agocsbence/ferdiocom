@@ -297,7 +297,7 @@
 			var btnIcon = document.querySelector('.icon-image');
 
 			player.addEvent('ready', function() {
-				player.api('setVolume', 1);
+				player.api('setVolume', 0);
 			});
 
 			muteBtn.addEventListener('click', function(e) {
