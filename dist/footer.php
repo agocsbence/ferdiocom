@@ -292,7 +292,6 @@
 				console.log(vimeo_iframe);
 
 				player.addEvent('ready', function() {
-					player.play();
 					player.api('setVolume', 0);
 				});
 			});
