@@ -41,7 +41,7 @@ endwhile; wp_reset_query();
                             <h4>In-house</h4>
                             <h3 class="entry-title">Flag Stories: A series of world flags infographics</h3>
                         </div>
-                        <div class="tag entry-tag home">Infographics</div>
+                        <!-- <div class="tag entry-tag home">Infographics</div> -->
                     </div>
                     <a href="/work/flag-stories" class="entry-link w-inline-block"></a>
                     <div class="data-static w-embed">true</div>
@@ -74,7 +74,7 @@ endwhile; wp_reset_query();
                             <h4>Novo Nordisk</h4>
                             <h3 class="entry-title">Raising awareness about diabetes</h3>
                         </div>
-                        <div class="tag entry-tag home">Animation</div>
+                        <!-- <div class="tag entry-tag home">Animation</div> -->
                     </div>
                     <a href="/work/raising-awareness-about-diabetes" class="entry-link w-inline-block"></a>
                     <div class="data-static w-embed">true</div>
@@ -102,7 +102,7 @@ endwhile; wp_reset_query();
                             <h4>Statistics Denmark</h4>
                             <h3 class="entry-title">If Denmark was 100 people</h3>
                         </div>
-                        <div class="tag entry-tag home">Animation</div>
+                        <!-- <div class="tag entry-tag home">Animation</div> -->
                     </div>
                     <a href="/work/if-denmark-was-100-people" class="entry-link w-inline-block"></a>
                     <div class="data-static w-embed">true</div>
@@ -130,7 +130,7 @@ endwhile; wp_reset_query();
                             <h4>In-house</h4>
                             <h3 class="entry-title">Factourism: Real facts from the real world with real sources</h3>
                         </div>
-                        <div class="tag entry-tag home">Infographics</div>
+                        <!-- <div class="tag entry-tag home">Infographics</div> -->
                     </div>
                     <a href="/work/factourism" class="entry-link w-inline-block"></a>
                     <div class="data-static w-embed">true</div>
@@ -158,7 +158,7 @@ endwhile; wp_reset_query();
                             <h4>Danish Medicines Agency</h4>
                             <h3 class="entry-title">The visual story of medicine developement</h3>
                         </div>
-                        <div class="tag entry-tag home">Animation</div>
+                        <!-- <div class="tag entry-tag home">Animation</div> -->
                     </div>
                     <a href="/work/how-a-medicine-passes-the-test" class="entry-link w-inline-block"></a>
                     <div class="data-static w-embed">true</div>
