@@ -1,6 +1,3 @@
-//TO SOLVE
-//listen to event when chat is opened or on an other element
-
 document.addEventListener('DOMContentLoaded', function(event) {
 	smallchat_script = document.querySelector("#smallchat-script")
 	// Function for rebooting Smallchat

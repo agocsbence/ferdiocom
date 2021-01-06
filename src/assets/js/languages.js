@@ -1,6 +1,3 @@
-//MAYBE UNNECCESSARY
-
-
 $(document).ready(function() {
 
   // INITIALISE WEGLOT

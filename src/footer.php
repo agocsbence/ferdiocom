@@ -146,7 +146,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js" integrity="sha256-91c9XEM8yFH2Mn9fn8yQaNRvJsEruL7Hctr6JiIY7Uw=" crossorigin="anonymous"></script>
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		<!-- GitHub-hosted JS -->
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
+		<!-- <script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/home-hero.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/menu-color.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/case-hero.js"></script>
@@ -155,7 +155,7 @@
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/background-shapes.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-box.js"></script>
 		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-language.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script>
+		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script> -->
 		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
 
 		<?php if (is_home()) { ?>
