@@ -138,24 +138,14 @@
         </div>
         <!-- END OF FOOTER -->
 
-        
 		<!-- <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5d16087814f9117f026ad2e1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 		<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><!-- External 3rd-party ressources -->
 		<script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.min.js" integrity="sha256-55Jz3pBCF8z9jBO1qQ7cIf0L+neuPTD1u7Ytzrp2dqo=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js" integrity="sha256-91c9XEM8yFH2Mn9fn8yQaNRvJsEruL7Hctr6JiIY7Uw=" crossorigin="anonymous"></script>
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
-		<!-- GitHub-hosted JS -->
-		<!-- <script src="https://combinatronics.com/ferdiocom/website-extras/master/languages.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/home-hero.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/menu-color.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/case-hero.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/modals.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/animations.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/background-shapes.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-box.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/chat-language.js"></script>
-		<script src="https://combinatronics.com/ferdiocom/website-extras/master/extras.js"></script> -->
+		
+		<!-- self-hosted JS -->
 		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
 
 		<?php if (is_home()) { ?>
@@ -170,7 +160,7 @@
 					var current = 0;   // fixed, please do not modfy;
 					var imgs = $(this).find('img');
 					var imgNum = imgs.length;    // How many pictures do you have
-					var interval = 8000; // You can set single picture show time;
+					var interval = 4000; // You can set single picture show time;
 					var delay = (parseInt($(this).find('.data-interval').text()))*1000;
 				
 					setTimeout(function(){
