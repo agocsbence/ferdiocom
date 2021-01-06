@@ -161,10 +161,13 @@
 					var imgs = $(this).find('img');
 					var imgNum = imgs.length;    // How many pictures do you have
 					var interval = 4000; // You can set single picture show time;
-					var delay = (parseInt($(this).find('.data-interval').text()));
+					var delay = (parseInt($(this).find('.data-interval').text()))*1000;
 				
 					setTimeout(function(){
-					nextFadeIn();
+						nextFadeIn();
+						console.table(imgs);
+						console.log('interval: ' + interval);
+						console.log('delay: ' + delay);
 					}, delay);
 				
 					function nextFadeIn(){
