@@ -150,12 +150,12 @@
 
 		<?php if (is_home()) { ?>
 			<script type="text/javascript">
-				$(document).ready(function(){
+				$(document).ready( function(){
 				
 					var logos = $('.clients .logos-container');
 					var fadeTime = $('.clients').attr('data-fade-time');  // You can set fadeing-transition time;
 					
-					logos.each( setInterval(function() {
+					logos.each( function() {
 						var next = 1;      // fixed, please do not modfy;
 						var current = 0;   // fixed, please do not modfy;
 						var imgs = $(this).find('img');
@@ -163,9 +163,9 @@
 						var interval = 4000; // You can set single picture show time;
 						var delay = (parseInt($(this).find('.data-interval').text()))*1000;
 					
-						setTimeout(function(){
+						setTimeout( function(){
 							nextFadeIn();
-							console.table(imgs);
+							console.log(imgs);
 							console.log('interval: ' + interval);
 							console.log('delay: ' + delay);
 						}, delay);
@@ -181,7 +181,7 @@
 						if(current < imgNum-1){ current++; } else { current = 0; }
 						};
 					
-					}, 10000));
+					});
 				
 				});
 			</script>
