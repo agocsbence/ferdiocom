@@ -147,7 +147,7 @@
 		
 		<!-- self-hosted JS -->
 		<!-- <script src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/js/scripts.js"></script> -->
-		<script src="//ferdiopull-179ee.kxcdn.com/wp-content/themes/ferdio/assets/js/scripts.js"></script>
+		<script src="//ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/js/scripts.js"></script>
 
 		<?php if (is_home()) { ?>
 			<script type="text/javascript">
