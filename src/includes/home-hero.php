@@ -4,19 +4,19 @@
             <div style="background-color:#f05440" class="section home-hero">
                 <div class="home-hero-background">
                     <div class="home-hero-inner">
-                        <img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape.jpg" alt="" sizes="100vw"
-                            srcset="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-500.jpeg 500w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-1080.jpeg 1080w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-1600.jpeg 1600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-2000.jpeg 2000w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-2600.jpeg 2600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape-p-3200.jpeg 3200w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40b1c042641505005b88_Red-Landscape.jpg 3408w"
+                        <img src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg" alt="" sizes="100vw"
+                            srcset="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=500 500w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=1080 1080w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=1600 1600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=2000 2000w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=2600 2600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg?width=3200 3200w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40b1c042641505005b88_Red-Landscape.jpg 3408w"
                             class="home-hero-element desktop"/>
-                        <img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg" alt="" sizes="100vw"
-                            srcset="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40ae3c085d4a82bbbe5c_Red-Portrait-p-1080.jpeg 1080w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40ae3c085d4a82bbbe5c_Red-Portrait-p-1600.jpeg 1600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg 2000w"
+                        <img src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg" alt="" sizes="100vw"
+                            srcset="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg?width=1080 1080w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg?width=1600 1600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40ae3c085d4a82bbbe5c_Red-Portrait.jpg 2000w"
                             class="home-hero-element mobile"/>
                     </div>
                     <div class="home-hero-inner w-embed">
@@ -43,18 +43,18 @@
             <div style="background-color:#182340" class="section home-hero">
                 <div class="home-hero-background">
                     <div class="home-hero-inner">
-                        <img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg" alt="" sizes="100vw"
-                            srcset="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape-p-1080.jpeg 1080w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape-p-1600.jpeg 1600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape-p-2000.jpeg 2000w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape-p-2600.jpeg 2600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape-p-3200.jpeg 3200w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg 3408w"
+                        <img src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg" alt="" sizes="100vw"
+                            srcset="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg?width=1080 1080w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg?width=1600 1600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg?width=2000 2000w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg?width=2600 2600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg?width=3200 3200w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc40a43c085d3ee9bbbe26_Dark-blue-Landscape.jpg 3408w"
                             class="home-hero-element desktop"/>
-                        <img src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg" alt="" sizes="100vw"
-                            srcset="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc409e9ad98a83eb603470_Dark-blue-Portrait-p-1080.jpeg 1080w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc409e9ad98a83eb603470_Dark-blue-Portrait-p-1600.jpeg 1600w,
-                            https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg 2000w"
+                        <img src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg" alt="" sizes="100vw"
+                            srcset="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg?width=1080 1080w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg?width=1600 1600w,
+                            https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/page/home/5dbc409e9ad98a83eb603470_Dark-blue-Portrait.jpg 2000w"
                             class="home-hero-element mobile"/>
                     </div>
                     <div class="home-hero-inner w-embed">
