@@ -31,7 +31,7 @@ get_header();
                     <div role="listitem" class="w-dyn-item">
                         <div class="w-embed">
                             <img
-                                src="<?php bloginfo('template_url') ?>/assets/img/notebook-flipping-book.png"
+                                src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/notebook-flipping-book.png"
                                 alt=""
                                 class="animation hidden"
                                 sizes="100vw"

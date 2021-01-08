@@ -146,7 +146,8 @@
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		
 		<!-- self-hosted JS -->
-		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
+		<!-- <script src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/js/scripts.js"></script> -->
+		<script src="//ferdiopull-179ee.kxcdn.com/wp-content/themes/ferdio/assets/js/scripts.js"></script>
 
 		<?php if (is_home()) { ?>
 			<script type="text/javascript">
@@ -295,12 +296,12 @@
 						btnText.innerHTML = 'off';
 						player.api('setVolume', 1);
 						muteBtn.classList.remove('muted');
-						btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute.png';
+						btnIcon.src = 'https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/mute.png';
 					} else {
 						muteBtn.classList.add('muted');
 						btnText.innerHTML = 'on'
 						player.api('setVolume', 0);
-						btnIcon.src = '<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png';
+						btnIcon.src = 'https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/mute-inactive.png';
 					}
 				});
 			</script>

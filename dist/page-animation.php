@@ -29,7 +29,7 @@ get_header();
                 </div>
                 <div class="hero-video-button mute-button muted">
                     <div class="icon mute-button">
-                        <img src="<?php bloginfo('template_url') ?>/assets/img/mute-inactive.png" alt="" class="icon-image mute-button" sizes="100vw">
+                        <img src="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/img/mute-inactive.png" alt="" class="icon-image mute-button" sizes="100vw">
                         <div class="button icon-button no-arrow mute-button">
                             Sound<br />
                             <span class="button-text">on</span>
