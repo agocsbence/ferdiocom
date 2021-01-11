@@ -103,10 +103,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="w-node-b0fff53da510-320139c1">
+                <div id="w-node-b0fff53da510-320139c1" data-react-type="trigger">
                     <h3 class="h3-bigger">Animation</h3>
                     <p>As the attention span of your audience gets shorter, animation is the perfect way to deliver information in very little time.</p>
-                    <a data-react-id="services" data-react-type="trigger" data-w-id="43a10933-5cfa-fb7e-a8d8-b0fff53da515" href="/services/animation" class="button w-button">learn more</a>
+                    <a data-react-id="services" data-w-id="43a10933-5cfa-fb7e-a8d8-b0fff53da515" href="/services/animation" class="button w-button">learn more</a>
                 </div>
             </div>
         </div>
