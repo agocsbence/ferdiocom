@@ -1139,6 +1139,7 @@ $(document).ready(function() {
 				// Append iframe and remove div with video options
 				if (window.location.href.indexOf('/da/') > -1 && id_da != '') {
 					player_container.append('<iframe class="' + player_class + '" src="https://player.vimeo.com/video/' + id_da + '?autoplay=' + autoplay + '&loop=' + loop + '&autopause=0&muted=' + muted + '&background=' + background + '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay"></iframe>');
+					//other if statements needed for portrait videos id!
 				} else {
 					player_container.append('<iframe class="' + player_class + '" src="https://player.vimeo.com/video/' + id + '?autoplay=' + autoplay + '&loop=' + loop + '&autopause=0&muted=' + muted + '&background=' + background + '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay"></iframe>');
 				};
