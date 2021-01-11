@@ -166,9 +166,9 @@
 					
 						setTimeout( function(){
 							nextFadeIn();
-							console.log(imgs);
-							console.log('interval: ' + interval);
-							console.log('delay: ' + delay);
+							// console.log(imgs);
+							// console.log('interval: ' + interval);
+							// console.log('delay: ' + delay);
 						}, delay);
 					
 						function nextFadeIn(){

@@ -51,10 +51,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="w-node-ab121b13bbc5-320139c1">
+                <div id="w-node-ab121b13bbc5-320139c1" data-react-type="trigger">
                     <h3 class="h3-bigger">Infographics</h3>
                     <p>Explain and communicate information, data and knowledge visually, by using visual tools like charts, illustrations and diagrams.</p>
-                    <a data-react-id="services" data-react-type="trigger" data-w-id="826de3f5-e7d8-29f1-7e68-01d377d8d7fd" href="/services/infographics" class="button w-button">learn more</a>
+                    <a data-react-id="services" data-w-id="826de3f5-e7d8-29f1-7e68-01d377d8d7fd" href="/services/infographics" class="button w-button">learn more</a>
                 </div>
             </div>
             <div data-animation="true" data-react-type="target" data-react-id="services" id="w-node-aa1a8e37090a-320139c1" class="w-layout-grid grid">
