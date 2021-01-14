@@ -274,7 +274,7 @@
 					this.querySelectorAll('.infographics-hero-img').forEach(image => {
 						const speed = image.getAttribute('data-speed');
 						console.log(speed);
-						console.log(e.pageY);
+						console.log(pageY);
 						const y = (window.innerHeight - e.pageY * speed)/100;
 						image.style.transform = `translateY(${y}px)`;
 					})
