@@ -264,15 +264,15 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                 </div>
             </div>
             <div id="w-node-a4f8d9ab82ca-ff0139e0" class="flex vertical">
-                <h3 class="h3-bigger font-900">General info></h3>
+                <h3 class="h3-bigger font-900">General info</h3>
                 <p>
-                    <strong>Ferdio ApS</strong><br />
+                    Ferdio ApS<br />
                     Skelbækgade 2, 5th floor,<br />
                     1717 Copenhagen V, Denmark
                 </p>
                 <p>
-                    <strong>CVR:</strong> 35661301<br />
-                    <strong>Bank:</strong> Nordea 2112 0726992177
+                    CVR: 35661301<br />
+                    Bank: Nordea 2112 0726992177
                 </p>
                 <p>Founded in 2014</p>
             </div>
