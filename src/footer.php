@@ -270,6 +270,7 @@
 			<script>
 				document.addEventListener('scroll', parallax);
 				function parallax(e) {
+					console.log('scroll detected');
 					this.querySelectorAll('.infographics-hero-img').forEach(image => {
 						const speed = image.getAttribute('data-speed');
 						const y = (window.innerHeight - e.pageY * speed)/100;
