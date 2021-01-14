@@ -264,7 +264,7 @@ https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5db2e23a41deb029ea3260a
                 </div>
             </div>
             <div id="w-node-a4f8d9ab82ca-ff0139e0" class="flex vertical">
-                <h3 class="h3-bigger"><strong>General info</strong></h3>
+                <h3 class="h3-bigger font-900"><strong>General info</strong></h3>
                 <p>
                     <strong>Ferdio ApS</strong><br />
                     Skelbækgade 2, 5th floor,<br />
