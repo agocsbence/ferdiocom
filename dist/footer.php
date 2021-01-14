@@ -273,9 +273,10 @@
 					console.log('scroll detected');
 					this.querySelectorAll('.infographics-hero-img').forEach(image => {
 						const speed = image.getAttribute('data-speed');
+						var scrollY = window.scrollY;
 						console.log(speed);
-						console.log(pageY);
-						const y = (window.innerHeight - e.pageY * speed)/100;
+						console.log(scrollY);
+						const y = (window.innerHeight - e.scrollY * speed)/100;
 						image.style.transform = `translateY(${y}px)`;
 					})
 					console.log('scroll function end');
