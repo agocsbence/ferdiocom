@@ -20,8 +20,6 @@ $(document).ready(function() {
 	}
 
 	var videos = $('*[data-vimeo-id]');
-	
-	console.table(videos);
 
 	if (videos.length > 0) {
 
@@ -56,6 +54,8 @@ $(document).ready(function() {
 				// Init Vimeo player
 				var video = player_container.find('iframe');
 				var player = new Vimeo.Player(video);
+
+				console.log(player);
 
 				player.ready().then(function() {
 
