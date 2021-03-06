@@ -40,7 +40,7 @@ get_header();
                 <?php endif; ?>
                 <div id="w-node-b38d74e414ce-960139e3" class="hero-text info">
                     <h1>Explain it with infographics</h1>
-                    <h2 class="margin-bottom-0">Make your content memorable, beautiful and effective.<br /></h2>
+                    <h2 class="margin-bottom-0">Easier to understand, more memorable and more engaging.<br /></h2>
                 </div>
             </div>
         </div>

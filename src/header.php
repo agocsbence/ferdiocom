@@ -4,9 +4,9 @@
 		<meta charset="utf-8"/>
 		<title><?php if(is_front_page() || is_home()){ echo get_bloginfo('name'); } else{ echo wp_title(''); echo ' | '; echo get_bloginfo('name'); }?></title>
 		<meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <link href="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/css/webflow.css" rel="stylesheet" type="text/css"/>
-		<link href="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/css/extras.css" rel="stylesheet" />
-		<link href="https://ferdiopull-179ee.kxcdn.com/wp-content/themes/dist/assets/css/haromstudio.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url') ?>/assets/css/webflow.css" rel="stylesheet" type="text/css"/>
+		<link href="<?php bloginfo('template_url') ?>/assets/css/extras.css" rel="stylesheet" />
+		<link href="<?php bloginfo('template_url') ?>/assets/css/haromstudio.css" rel="stylesheet" type="text/css" />
 		<script src="https://use.typekit.net/rdh1vqt.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="https://use.typekit.net/lni0eoo.css">
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
