@@ -92,8 +92,6 @@ $(document).ready(function() {
 						}
 
 					};
-
-					console.log(player_class);
 					
 					if (player_class == 'thumbnail' || player_class == 'thumbnail lazyload') {
 						
