@@ -706,6 +706,9 @@ $(document).ready(function() {
 			spinner.remove();
 		});
 
+		var chElement = document.querySelector('h1home-hero-spinner');
+		charming(chElement);
+
 		// Change highlight and logo color
 		var highlight_color = hero.find('.data-home-hero-colors .data-highlight-color').css('color'),
 			logo_color = hero.find('.data-home-hero-colors .data-logo-color').text();
