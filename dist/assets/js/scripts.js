@@ -1188,8 +1188,10 @@ $(document).ready(function() {
 
 					};
 
+					console.log(player_class);
+					
 					if (player_class == 'thumbnail') {
-						console.log(player_class);
+						
 						// Resize video to fit thumbnail
 						function videoWidth() {
 							video.css({
