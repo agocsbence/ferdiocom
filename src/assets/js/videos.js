@@ -55,8 +55,6 @@ $(document).ready(function() {
 				var video = player_container.find('iframe');
 				var player = new Vimeo.Player(video);
 
-				console.log(player);
-
 				player.ready().then(function() {
 
 					if (playonhover == true) {
@@ -96,6 +94,7 @@ $(document).ready(function() {
 					};
 
 					if (player_class == 'thumbnail') {
+						console.log(player_class);
 						// Resize video to fit thumbnail
 						function videoWidth() {
 							video.css({
