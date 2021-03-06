@@ -1190,7 +1190,7 @@ $(document).ready(function() {
 
 					console.log(player_class);
 					
-					if (player_class == 'thumbnail') {
+					if (player_class == 'thumbnail' || player_class == 'thumbnail lazyload') {
 						
 						// Resize video to fit thumbnail
 						function videoWidth() {
