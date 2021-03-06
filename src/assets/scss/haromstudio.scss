@@ -32,4 +32,10 @@ $blue:                      #283250;
         }
     }
 }
+.thumbnail.video {
+    width: 100%;
+    iframe {
+        width: 100%;
+    }
+}
 
