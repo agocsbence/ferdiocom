@@ -706,7 +706,7 @@ $(document).ready(function() {
 			spinner.remove();
 		});
 
-		var chElement = document.querySelector('home-hero-spinner');
+		var chElement = document.querySelector('.home-hero-spinner');
 		charming(chElement);
 		console.log('charming ready on ' + chElement);
 
