@@ -95,7 +95,7 @@ $(document).ready(function() {
 
 					console.log(player_class);
 					
-					if (player_class == 'thumbnail' || player_class == 'thumbnail lazyload' || player_class == 'home-hero-element home-hero-video lazyload') {
+					if (player_class == 'thumbnail' || player_class == 'thumbnail lazyload' || player_class == 'home-hero-element home-hero-video lazyload' || player_class == 'home-hero-element home-hero-video lazyloaded') {
 						
 						// Resize video to fit thumbnail
 						function videoWidth() {
