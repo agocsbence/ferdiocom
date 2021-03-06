@@ -1115,6 +1115,8 @@ $(document).ready(function() {
 	}
 
 	var videos = $('*[data-vimeo-id]');
+	
+	console.table(videos);
 
 	if (videos.length > 0) {
 
