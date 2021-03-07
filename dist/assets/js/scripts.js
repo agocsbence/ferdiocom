@@ -744,14 +744,14 @@ $(document).ready(function() {
 		});
 
 		// Move spinner
-		hero.find('.home-hero-spinner-wrapper').each(function() {
-			spinner = $(this);
-			spinner_target = hero.find('.home-hero-spinner-target[data-spinner-id="' + spinner.attr('id') + '"]');
-			new_spinner = '<span class="home-hero-spinner-wrapper">' + spinner.html() + '</span>';
+		// hero.find('.home-hero-spinner-wrapper').each(function() {
+		// 	spinner = $(this);
+		// 	spinner_target = hero.find('.home-hero-spinner-target[data-spinner-id="' + spinner.attr('id') + '"]');
+		// 	new_spinner = '<span class="home-hero-spinner-wrapper">' + spinner.html() + '</span>';
 
-			$(new_spinner).appendTo(spinner_target);
-			spinner.remove();
-		});
+		// 	$(new_spinner).appendTo(spinner_target);
+		// 	spinner.remove();
+		// });
 
 		// Change highlight and logo color
 		var highlight_color = hero.find('.data-home-hero-colors .data-highlight-color').css('color'),
