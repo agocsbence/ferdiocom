@@ -28,8 +28,22 @@
                         <h1 style="color:hsla(0, 0.00%, 100.00%, 1.00)" class="home-hero-header">
                             <span class="home-hero-highlight">Explain it visually.</span><br/><span data-spinner-id="spinner-1" class="home-hero-spinner-target">Turn your information<br/>into </span>
                         </h1>
-                        <h1 id="spinner-1" style="color:#283250" class="home-hero-spinner-wrapper">
-                            <span class="home-hero-spinner home-hero-highlight">infographics<br/>animations<br/>data viz<br/>presentations<br/>infographics</span>
+                        <h1 id="spinner-1" class="home-hero-spinner-wrapper">
+                            <div class="home-hero-spinner">
+                                <div class="spinner-text">infographics</div>a
+                            </div>
+                            <div class="home-hero-spinner">
+                                <div class="spinner-text">animations</div>
+                            </div>
+                            <div class="home-hero-spinner">
+                                <div class="spinner-text">data viz</div>
+                            </div>
+                            <div class="home-hero-spinner">
+                                <div class="spinner-text">presentations</div>
+                            </div>
+                            <div class="home-hero-spinner">
+                                <div class="spinner-text">infographics</div>
+                            </div>
                         </h1>
                     </div>
                 </div>
@@ -70,7 +84,7 @@
                         </h1>
                         <h1 id="spinner-1" class="home-hero-spinner-wrapper">
                             <div class="home-hero-spinner">
-                                <div class="spinner-text">infographics</div>
+                                <div class="spinner-text">infographics</div>a
                             </div>
                             <div class="home-hero-spinner">
                                 <div class="spinner-text">animations</div>
