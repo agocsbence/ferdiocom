@@ -68,8 +68,12 @@
                             <br/>
                             <span data-spinner-id="spinner-1" class="home-hero-spinner-target">Turn your information<br/>into </span>
                         </h1>
-                        <h1 id="spinner-1" style="color:#f05440" class="home-hero-spinner-wrapper">
-                            <span class="home-hero-spinner home-hero-highlight">infographics<br/>animations<br/>data viz<br/>presentations<br/>infographics</span>
+                        <h1 id="spinner-1" class="home-hero-spinner-wrapper">
+                            <div class="home-hero-spinner">infographics</div>
+                            <div class="home-hero-spinner">animations</div>
+                            <div class="home-hero-spinner">data viz</div>
+                            <div class="home-hero-spinner">presentations</div>
+                            <div class="home-hero-spinner">infographics</div>
                         </h1>
                     </div>
                 </div>
