@@ -1,4 +1,5 @@
 src/wp_theme_files
+.jshintrc
 
 # Node artifact files
 node_modules/

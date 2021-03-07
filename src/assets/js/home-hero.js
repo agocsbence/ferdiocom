@@ -22,10 +22,6 @@ $(document).ready(function() {
 			spinner.remove();
 		});
 
-		var chElement = document.querySelector('.home-hero-spinner');
-		charming(chElement);
-		console.log('charming ready on ' + chElement);
-
 		// Change highlight and logo color
 		var highlight_color = hero.find('.data-home-hero-colors .data-highlight-color').css('color'),
 			logo_color = hero.find('.data-home-hero-colors .data-logo-color').text();
@@ -36,8 +32,8 @@ $(document).ready(function() {
 		if (logo_color == 'White') {
 			hero.addClass('dark-bg');
 		} else {
-			return
-		};
+			return;
+		}
 
 		// BACKGROUND RESIZE
 		var wrappers = hero.find('.home-hero-inner');
