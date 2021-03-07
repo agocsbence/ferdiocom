@@ -728,7 +728,7 @@ class Entry {
 }
 
 const sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
-sections.forEach(section => allentries.push(new Entry(section)));
+sections.forEach(section => new Entry(section));
 // HOME HERO
 $(document).ready(function() {
 
