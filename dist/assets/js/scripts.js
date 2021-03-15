@@ -744,6 +744,7 @@ $(document).ready(function() {
 	if (heros) {
 		var random_num = Math.floor(Math.random() * heros.length),
 			hero = heros.eq(random_num);
+			console.log(hero);
 
 		heros.each(function() {
 			if (!$(this).is(heros.get(random_num))) {

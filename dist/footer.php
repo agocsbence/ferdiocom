@@ -168,12 +168,12 @@
 						}, delay);
 					
 						function nextFadeIn(){
-						//make image fade in and fade out at one time, without splash visual
-						imgs.eq(current).delay(interval).fadeOut(fadeTime)
-						.end().eq(next).delay(interval).hide().fadeIn(fadeTime, nextFadeIn);
-							
-						if(next < imgNum-1){ next++; } else { next = 0;}
-						if(current < imgNum-1){ current++; } else { current = 0; }
+							//make image fade in and fade out at one time, without splash visual
+							imgs.eq(current).delay(interval).fadeOut(fadeTime)
+							.end().eq(next).delay(interval).hide().fadeIn(fadeTime, nextFadeIn);
+								
+							if(next < imgNum-1){ next++; } else { next = 0;}
+							if(current < imgNum-1){ current++; } else { current = 0; }
 						};
 					
 					});
