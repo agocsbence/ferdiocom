@@ -1,5 +1,5 @@
 var sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
-var n = 1;
+var n = 0;
 
 var active = document.querySelector('.active');
 
@@ -36,7 +36,8 @@ var animChars = (a, repeat) => {
                 setTimeout(() => {
                     var nextWord = a.nextElementSibling;
                     console.log(repeat + '. element is: '+ nextWord);
-                    console.log(sections.length*n);
+                    console.log('n is: ' + n);
+                    console.log('length*n is: ' + sections.length*n);
                     if(repeat === sections.length*n) {
                         console.log(sections);
                         var nextWord = sections[0];
