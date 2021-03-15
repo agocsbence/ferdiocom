@@ -146,38 +146,32 @@
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		
 		<!-- self-hosted JS -->
-		<!-- <script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script> -->
-		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js"></script>
+		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js?v=1.0.0"></script>
 
 		<?php if (is_home()) { ?>
 			<script type="text/javascript">
 				$(document).ready( function(){
 				
 					var logos = $('.clients .logos-container');
-					var fadeTime = $('.clients').attr('data-fade-time');  // You can set fadeing-transition time;
+					var fadeTime = $('.clients').attr('data-fade-time');
 					
 					logos.each( function() {
-						var next = 1;      // fixed, please do not modfy;
-						var current = 0;   // fixed, please do not modfy;
+						var next = 1;
+						var current = 0;
 						var imgs = $(this).find('img');
-						var imgNum = imgs.length;    // How many pictures do you have
-						var interval = 4000; // You can set single picture show time;
+						var imgNum = imgs.length;
+						var interval = 4000;
 						var delay = (parseInt($(this).find('.data-interval').text()))*1000;
 					
 						setTimeout( function(){
 							nextFadeIn();
-							// console.log(imgs);
-							// console.log('interval: ' + interval);
-							// console.log('delay: ' + delay);
 						}, delay);
 					
 						function nextFadeIn(){
-						//make image fade in and fade out at one time, without splash vsual;
+						//make image fade in and fade out at one time, without splash visual
 						imgs.eq(current).delay(interval).fadeOut(fadeTime)
 						.end().eq(next).delay(interval).hide().fadeIn(fadeTime, nextFadeIn);
 							
-						// if You have 5 images, then (eq) range is 0~4 
-						// so we should reset to 0 when value > 4; 
 						if(next < imgNum-1){ next++; } else { next = 0;}
 						if(current < imgNum-1){ current++; } else { current = 0; }
 						};

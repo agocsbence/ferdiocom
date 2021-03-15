@@ -78,23 +78,20 @@
                             <span class="home-hero-highlight">Explain it visually.</span>
                             <br/>
                             <span data-spinner-id="spinner-1" class="home-hero-spinner-target">Turn your information<br/>into </span>
-                        </h1>
-                        <h1 id="spinner-1" class="home-hero-spinner-wrapper">
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">infographics</div>a
-                            </div>
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">animations</div>
-                            </div>
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">data viz</div>
-                            </div>
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">presentations</div>
-                            </div>
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">infographics</div>
-                            </div>
+                            <span class="home-hero-spinner-wrapper">
+                                <div class="home-hero-spinner active">
+                                    <div class="spinner-text">infographics</div>
+                                </div>
+                                <div class="home-hero-spinner">
+                                    <div class="spinner-text">animations</div>
+                                </div>
+                                <div class="home-hero-spinner">
+                                    <div class="spinner-text">data viz</div>
+                                </div>
+                                <div class="home-hero-spinner">
+                                    <div class="spinner-text">presentations</div>
+                                </div>
+                            </span>
                         </h1>
                     </div>
                 </div>

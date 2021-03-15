@@ -6,7 +6,7 @@
 		<meta content="width=device-width, initial-scale=1" name="viewport"/>
         <link href="<?php bloginfo('template_url') ?>/assets/css/webflow.css" rel="stylesheet" type="text/css"/>
 		<link href="<?php bloginfo('template_url') ?>/assets/css/extras.css" rel="stylesheet" />
-		<link href="<?php bloginfo('template_url') ?>/assets/css/haromstudio.css" rel="stylesheet" type="text/css" />
+		<link href="<?php bloginfo('template_url') ?>/assets/css/haromstudio.css?v=1.0.0" rel="stylesheet" type="text/css" />
 		<script src="https://use.typekit.net/rdh1vqt.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="https://use.typekit.net/lni0eoo.css">
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>

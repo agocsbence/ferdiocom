@@ -696,6 +696,7 @@ var animChars = (a, repeat) => {
     var complete = false;
     let cnt = 0;
     var title = a.querySelector('.spinner-text');
+    var letters = Array.from(title.querySelectorAll('span'));
     
     if (repeat > sections.length) {
         var letters = Array.from(title.querySelectorAll('span'));
