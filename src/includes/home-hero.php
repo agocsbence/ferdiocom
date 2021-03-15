@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <div role="listitem" class="w-dyn-item">
+        <!-- <div role="listitem" class="w-dyn-item">
             <div style="background-color:#182340" class="section home-hero">
                 <div class="home-hero-background">
                     <div class="home-hero-inner">
@@ -100,6 +100,6 @@
                     <div class="data-logo-color">White</div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
