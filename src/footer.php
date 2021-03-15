@@ -146,7 +146,7 @@
 		<script id="smallchat-script" src="https://embed.small.chat/T031T7B6KGPGP5FPB4.js" async></script>
 		
 		<!-- self-hosted JS -->
-		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js?v=1.0.0"></script>
+		<script src="<?php bloginfo('template_url') ?>/assets/js/scripts.js?v=1.0.1"></script>
 
 		<?php if (is_home()) { ?>
 			<script type="text/javascript">
