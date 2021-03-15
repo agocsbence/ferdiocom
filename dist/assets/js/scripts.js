@@ -727,14 +727,14 @@ var animChars = (a, repeat) => {
                     next.classList.add('active');
                     var active = document.querySelector('.active');
                     animChars(active, repeat);
-                }, 2000)
+                }, 2000);
             }
-        }, 1000);
+        }, 100);
         
         }, pos*80);
         a.timeouts.push(timeout);
     });
-}
+};
 
 animChars(active, 0);
 // HOME HERO
