@@ -38,7 +38,14 @@ $blue:                      #283250;
         width: 100%;
     }
 }
-.home-hero-spinner {
-    display: block;
+.home-hero-spinner-wrapper {
+    overflow: hidden;
+    .home-hero-spinner {
+        display: none;
+        font-size: 5rem;
+        &.active {
+            display: block;
+        }
+    }
 }
 
