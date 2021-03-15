@@ -683,7 +683,7 @@ $(document).ready(function() {
 });
 
 var sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
-var n = 0;
+var n = 1;
 
 var active = document.querySelector('.active');
 
