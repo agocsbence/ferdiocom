@@ -682,61 +682,6 @@ $(document).ready(function() {
 
 });
 
-var sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
-var n = 1;
-
-var active = document.querySelector('.active');
-
-var animChars = (a, repeat) => {
-    ++repeat;
-    const chars = ['$','%','#','@','&','(',')','=','*','/'];
-    const charsTotal = chars.length;
-    const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-    a.timeouts = [];
-    var complete = false;
-    let cnt = 0;
-    var title = a.querySelector('.spinner-text');
-    // var letters = Array.from(title.querySelectorAll('span'));
-    
-    if (repeat > sections.length) {
-        var letters = Array.from(title.querySelectorAll('span'));
-        letters.forEach(letter => letter.innerHTML = letter.dataset.initial);
-    } else {
-        charming(title);
-        var letters = Array.from(title.querySelectorAll('span'));
-        letters.forEach(letter => letter.dataset.initial = letter.innerHTML);
-    }
-
-    letters.forEach((letter, pos) => {
-        const timeout = setTimeout(() => {
-        var num = getRandomInt(0, charsTotal-1);
-        letter.innerHTML = chars[num];
-        
-        setTimeout(() => {
-            letter.innerHTML = letter.dataset.initial;
-            ++cnt;
-            if ( cnt === letters.length ) {
-                a.complete = true;
-                setTimeout(() => {
-                    var nextWord = a.nextElementSibling;
-                    if(repeat === sections.length*n) {
-                        var nextWord = sections[0];
-                        ++n;
-                    }
-                    a.classList.remove('active');
-                    nextWord.classList.add('active');
-                    var active = document.querySelector('.active');
-                    animChars(active, repeat);
-                }, 2000);
-            }
-        }, 100);
-        
-        }, pos*80);
-        a.timeouts.push(timeout);
-    });
-};
-
-animChars(active, 0);
 // HOME HERO
 $(document).ready(function() {
 
@@ -751,16 +696,6 @@ $(document).ready(function() {
 				$(this).parent().remove();
 			}
 		});
-
-		// Move spinner
-		// hero.find('.home-hero-spinner-wrapper').each(function() {
-		// 	spinner = $(this);
-		// 	spinner_target = hero.find('.home-hero-spinner-target[data-spinner-id="' + spinner.attr('id') + '"]');
-		// 	new_spinner = '<span class="home-hero-spinner-wrapper">' + spinner.html() + '</span>';
-
-		// 	$(new_spinner).appendTo(spinner_target);
-		// 	spinner.remove();
-		// });
 
 		// Change highlight and logo color
 		var highlight_color = hero.find('.data-home-hero-colors .data-highlight-color').css('color'),
