@@ -34,13 +34,14 @@ var animChars = (a, repeat) => {
             if ( cnt === letters.length ) {
                 a.complete = true;
                 setTimeout(() => {
-                    var next = a.nextElementSibling;
+                    var nextWord = a.nextWordElementSibling;
+                    console.log(nextWord);
                     if(repeat === sections.length*n) {
-                        var next = sections[0];
+                        var nextWord = sections[0];
                         ++n;
                     }
                     a.classList.remove('active');
-                    next.classList.add('active');
+                    nextWord.classList.add('active');
                     var active = document.querySelector('.active');
                     animChars(active, repeat);
                 }, 2000);
