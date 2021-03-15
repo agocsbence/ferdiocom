@@ -719,7 +719,8 @@ var animChars = (a, repeat) => {
                 a.complete = true;
                 setTimeout(() => {
                     var nextWord = a.nextElementSibling;
-                    console.log(repeat + 'nth element is: '+ nextWord);
+                    console.log(repeat + '. element is: '+ nextWord);
+                    console.log(sections.length*n);
                     if(repeat === sections.length*n) {
                         console.log(sections);
                         var nextWord = sections[0];
