@@ -1,47 +1,54 @@
-//Character animation
-// var chElement = document.querySelector('.home-hero-spinner');
-// charming(chElement);
-// console.log('charming ready on ' + chElement);
+var sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
+var n = 1;
 
-//
+var active = document.querySelector('.active');
 
-const chars = ['$','%','#','@','&','(',')','=','*','/'];
-const charsTotal = chars.length;
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-
-class Entry {
-    constructor(el) {
-        this.DOM = {el: el};
-        this.DOM.title = {word: this.DOM.el.querySelector('.spinner-text')};
-        charming(this.DOM.title.word);
-        this.DOM.title.letters = Array.from(this.DOM.title.word.querySelectorAll('span'));
-        this.DOM.title.letters.forEach(letter => letter.dataset.initial = letter.innerHTML);
-        this.lettersTotal = this.DOM.title.letters.length;
-        observer.observe(this.DOM.el);
+var animChars = (a, repeat) => {
+    ++repeat;
+    const chars = ['$','%','#','@','&','(',')','=','*','/'];
+    const charsTotal = chars.length;
+    const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+    a.timeouts = [];
+    var complete = false;
+    let cnt = 0;
+    var title = a.querySelector('.spinner-text');
+    
+    if (repeat > sections.length) {
+        var letters = Array.from(title.querySelectorAll('span'));
+        letters.forEach(letter => letter.innerHTML = letter.dataset.initial);
+    } else {
+        charming(title);
+        var letters = Array.from(title.querySelectorAll('span'));
+        letters.forEach(letter => letter.dataset.initial = letter.innerHTML);
     }
-    get chars() {
-        return this.animChars();
-    }
-    animChars() {
-        this.DOM.title.word.style.opacity = 1; 
-        this.timeouts = [];
-        this.complete = false;
-        let cnt = 0;
-        this.DOM.title.letters.forEach((letter, pos) => {
-            const timeout = setTimeout(() => {
-                letter.innerHTML = chars[getRandomInt(0,charsTotal-1)];
+
+    letters.forEach((letter, pos) => {
+        const timeout = setTimeout(() => {
+        var num = getRandomInt(0, charsTotal-1);
+        letter.innerHTML = chars[num];
+        
+        setTimeout(() => {
+            letter.innerHTML = letter.dataset.initial;
+            ++cnt;
+            if ( cnt === letters.length ) {
+                a.complete = true;
                 setTimeout(() => {
-                    letter.innerHTML = letter.dataset.initial;
-                    ++cnt;
-                    if ( cnt === this.lettersTotal ) {
-                        this.complete = true;
+                    var next = a.nextElementSibling;
+                    if(repeat === sections.length*n) {
+                        var next = sections[0];
+                        ++n;
                     }
-                }, 100);
-            }, pos*80);
-            this.timeouts.push(timeout);
-        });
-    }
+                    a.classList.remove('active');
+                    next.classList.add('active');
+                    var active = document.querySelector('.active');
+                    animChars(active, repeat);
+                }, 2000)
+            }
+        }, 1000);
+        
+        }, pos*80);
+        a.timeouts.push(timeout);
+    });
 }
 
-const sections = Array.from(document.querySelectorAll('.home-hero-spinner'));
-sections.forEach(section => new Entry(section));
+animChars(active, 0);

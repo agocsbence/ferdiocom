@@ -28,21 +28,18 @@
                         <h1 style="color:hsla(0, 0.00%, 100.00%, 1.00)" class="home-hero-header">
                             <span class="home-hero-highlight">Explain it visually.</span><br/><span data-spinner-id="spinner-1" class="home-hero-spinner-target">Turn your information<br/>into </span>
                         </h1>
-                        <h1 id="spinner-1" class="home-hero-spinner-wrapper">
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">infographics</div>a
+                        <h1 class="home-hero-spinner-wrapper">
+                            <div class="home-hero-spinner active">
+                            <div class="spinner-text">infographics</div>
                             </div>
                             <div class="home-hero-spinner">
-                                <div class="spinner-text">animations</div>
+                            <div class="spinner-text">animations</div>
                             </div>
                             <div class="home-hero-spinner">
-                                <div class="spinner-text">data viz</div>
+                            <div class="spinner-text">data viz</div>
                             </div>
                             <div class="home-hero-spinner">
-                                <div class="spinner-text">presentations</div>
-                            </div>
-                            <div class="home-hero-spinner">
-                                <div class="spinner-text">infographics</div>
+                            <div class="spinner-text">presentations</div>
                             </div>
                         </h1>
                     </div>
