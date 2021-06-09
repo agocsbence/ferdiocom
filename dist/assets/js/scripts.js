@@ -689,7 +689,10 @@ $(document).ready(function() {
 	if (heros) {
 		var random_num = Math.floor(Math.random() * heros.length),
 			hero = heros.eq(random_num);
-			console.log('hero:' + hero);
+			console.log('heros: ');
+			console.table(heros);
+			console.log('rand_num: ' + random_num);
+			console.log('heros.length: ' + heros.length);
 
 		heros.each(function() {
 			if (!$(this).is(heros.get(random_num))) {
