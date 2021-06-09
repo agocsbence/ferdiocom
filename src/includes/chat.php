@@ -9,7 +9,7 @@
                     <div role="listitem" class="w-dyn-item">
                         <div class="w-embed">
                             <img
-                                src="https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png"
+                                src="<?php bloginfo('template_url') ?>/assets/img/Hand-Animation_Dark-Version.gif"
                                 alt=""
                                 class="animation hidden"
                                 sizes="100vw"
@@ -18,10 +18,10 @@
                                 data-delay="2"
                                 data-number-frames=""
                                 data-srcset="
-                                https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 500w,
-                                https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 800w,
-                                https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 1080w,
-                                https://uploads-ssl.webflow.com/5d19f0c0f6e4ce120036e9e5/5dbaa06b7c76ea8f2f46b5c8_chat-module.png 1080w">
+                                <?php bloginfo('template_url') ?>/assets/img/Hand-Animation_Dark-Version.gif 500w,
+                                <?php bloginfo('template_url') ?>/assets/img/Hand-Animation_Dark-Version.gif 800w,
+                                <?php bloginfo('template_url') ?>/assets/img/Hand-Animation_Dark-Version.gif 1080w,
+                                <?php bloginfo('template_url') ?>/assets/img/Hand-Animation_Dark-Version.gif 1080w">
                             <div data-src=""
                                 class="animation hidden"
                                 style="width: 0; height: 0; pointer-events: none;"

@@ -20,7 +20,7 @@
                             class="home-hero-element mobile"/>
                     </div>
                     <div class="home-hero-inner w-embed">
-                        <div class="home-hero-element home-hero-video" data-vimeo-id="526020608" data-vimeo-id-portrait="370318266" data-vimeo-autoplay="1" data-vimeo-background="1" data-vimeo-muted="1" data-vimeo-playonhover="0" data-vimeo-loop="1"></div>
+                        <div class="home-hero-element home-hero-video" data-vimeo-id="526020608" data-vimeo-id-portrait="526020749" data-vimeo-autoplay="1" data-vimeo-background="1" data-vimeo-muted="1" data-vimeo-playonhover="0" data-vimeo-loop="1"></div>
                     </div>
                 </div>
                 <div class="grid home-hero">
