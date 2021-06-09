@@ -237,6 +237,36 @@
 
 				animChars(active, 0);
 			</script>
+			<script>
+			// INSTAFEED SDK
+			window.fbAsyncInit = function() {
+				FB.init({
+				appId      : '1606302499562649',
+				xfbml      : true,
+				version    : 'v10.0'
+				});
+				FB.AppEvents.logPageView();
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			</script>
+			<script type="text/javascript">
+				var userFeed = new Instafeed({
+					get: 'user',
+					userId: '5725820028',
+					limit: 51,
+					template: '<div class="instagram-picture" style="border: none !important; --aspect-ratio: 1/1; position: relative;"><a href="{{link}}" target="blank"><div class="instaPic" style="background-image: url({{image}}); background-size: cover; background-position: center center; width: 100%; height: 100%;"></div></a></div>',
+					accessToken: '5725820028.1677ed0.72fa6c74985e46038ae6ccd01a6d7671',
+					resolution: 'standard_resolution'
+				});
+				userFeed.run();
+			</script>
 		<?php } else if (is_page_template( 'page-work.php' )) { ?>
 
 			<script>
