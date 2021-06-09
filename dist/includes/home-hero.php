@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div role="listitem" class="w-dyn-item">
+        <div role="listitem" class="w-dyn-item">
             <div style="background-color:#182340" class="section home-hero">
                 <div class="home-hero-background">
                     <div class="home-hero-inner">
@@ -69,7 +69,7 @@
                             class="home-hero-element mobile"/>
                     </div>
                     <div class="home-hero-inner w-embed">
-                        <div class="home-hero-element home-hero-video" data-vimeo-id="370311297" data-vimeo-id-portrait="370311330" data-vimeo-autoplay="1" data-vimeo-background="1" data-vimeo-muted="1" data-vimeo-playonhover="0" data-vimeo-loop="1"></div>
+                        <div class="home-hero-element home-hero-video" data-vimeo-id="526031256" data-vimeo-id-portrait="526031051" data-vimeo-autoplay="1" data-vimeo-background="1" data-vimeo-muted="1" data-vimeo-playonhover="0" data-vimeo-loop="1"></div>
                     </div>
                 </div>
                 <div class="grid home-hero">
@@ -100,6 +100,6 @@
                     <div class="data-logo-color">White</div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>
